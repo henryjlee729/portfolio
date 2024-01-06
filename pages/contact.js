@@ -49,7 +49,7 @@ const Contact = () => {
         <div className='flex items-center'>
 
             <Head>
-                <link rel='icon' href='/LofiTea.ico' />
+                <link rel='icon' href='/public/LofiTea.ico' />
                 <title>Contact</title>
             </Head>
             <div className='h-screen max-w-screen-xl px-4 py-16 mx-auto md:pt-32 md:p-20'>
