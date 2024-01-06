@@ -2,7 +2,7 @@
 title: 'GarlicRide'
 date: 'September 16, 2023'
 excerpt: 'This post will explain my project for the 2023 Hello World Hackathon'
-cover_image: '/images/garlic-ride/garlic-ride.png'
+cover_image: '/public/images/garlic-ride/garlic-ride.png'
 ---
 
 # GarlicRide
@@ -41,11 +41,11 @@ There were two main features that our demo employed: the forum and the map.
 
    The idea of the forum was that a customer would drop off a request for a ride.  An available driver would be notified and they would go to the customer's location.  Once they get in, the driver would drive them to their destination.  It is a way to allow customers to communicate with the drivers on where they would like to go.
 
-   ![alt text](/images/garlic-ride/forum.png)
+   ![alt text](/public/images/garlic-ride/forum.png)
 
 
 2. Map
 
     The idea of the map was to show a customer how far away a driver was near to them and to show an estimated time length of how long their drive will be from their current location to their destination.
     
-    ![alt text](/images/garlic-ride/map.png)
+    ![alt text](/public/images/garlic-ride/map.png)
