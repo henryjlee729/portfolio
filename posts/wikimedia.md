@@ -2,7 +2,7 @@
 title: 'Wikimedia Content Improvement'
 date: 'January 8, 2024'
 excerpt: 'This post will cover my role in a Corporate Partners project from the Data Mine'
-cover_image: '/images/wikimedia/wikimedia.png'
+cover_image: '/public/images/wikimedia/wikimedia.png'
 ---
 
 # Wikimedia Content Improvement
