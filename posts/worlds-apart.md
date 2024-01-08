@@ -2,8 +2,7 @@
 title: 'Worlds Apart'
 date: 'August 21, 2023'
 excerpt: 'This post explains my passion project that I do in my free time'
-cover_image: './images/worlds-apart/worlds-apart.png'
----
+cover_image: 'https://lofitea.github.io/lofitea-portfolio/images/worlds-apart/worlds-apart.png
 
 # Worlds Apart
 
