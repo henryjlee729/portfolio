@@ -1,5 +1,6 @@
 {
   "name": "lofitea-portfolio",
+  "homepage": "https://github.com/LofiTea/lofitea-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
