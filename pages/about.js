@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="h-screen lg:pl-20 lg:pr-32">
       <Head>
-        <link rel='icon' href='../public/LofiTea.ico?' />
+        <link rel='icon' href='./lofitea-portfolio/LofiTea.ico' />
         <title>About</title>
       </Head>
       <div className="flex justify-between md:mx-20 md:pt-32 pt-28">
