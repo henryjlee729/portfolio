@@ -21,37 +21,40 @@ There were several features that were put into this project.
 
     A user has the ability to create an account either as a buyer or a seller.  They will need a valid email and a strong password with a minimum of 8 characters, a number, and a special character.  The marketplace has two roles: buyers and sellers.
 
-    ![alt text](/public/images/tickets-at-purdue/create-account.png)
+    ![Screenshot](/public/images/tickets-at-purdue/create-account.png)
 
 2. Buying A Ticket (Buyers)
 
     Buyers using this marketplace will naturally want to buy tickets.  They have the ability to buy a ticket based on a specific sorting.  They can also remove an item from their shopping cart, view what items are in their shopping cart, and checkout if they wanted to.
 
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
 
     Buyers can sort what types of tickets they have in their shopping cart.
     
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-sorting.png)
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-choosing.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-sorting.png)
+   
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-choosing.png)
 
-3. Selling A Ticket (Sellers)
+4. Selling A Ticket (Sellers)
 
     Sellers using this marketplace will naturally want to sell tickets.  They have the ability to sell a ticket, add a ticket or a store, remove a ticket or store, or edit details for a particular store or ticket.
 
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
 
     Sellers can choose whether to create a new store or a new ticket to a specific store.
 
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/sell-ticket-create.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/sell-ticket-create.png)
 
-4. Statistics
+5. Statistics
 
     Both buyers and sellers have the ability to see their statistics.  They just need to go to the main menu, select the third option, and click on how they want to see their statistics.
 
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buyer-statistics.png)
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/seller-statistics.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buyer-statistics.png)
+   
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/seller-statistics.png)
 
     Additionally, if a user chooses to, they can see their previous transactional history.  They just need to go to the main menu and click on the second option.
 
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buyer-menu.png)
-    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/seller-menu.png)
+    ![Screenshot](./lofitea-portfolio/images/tickets-at-purdue/buyer-menu.png)
+   
+    ![Screensho](./lofitea-portfolio/images/tickets-at-purdue/seller-menu.png)
