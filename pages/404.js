@@ -5,7 +5,7 @@ const Error404 = () => {
     return (
         <section className='flex items-center text-black'>
             <Head>
-                <link rel='icon' href='./lofitea-portfolio/LofiTea.ico' />
+                <link rel='icon' href='./images/lofitea/LofiTea.jpg' />
                 <title>Error 404</title>
             </Head>
 
