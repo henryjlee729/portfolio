@@ -2,7 +2,7 @@
 title: 'Tickets@Purdue'
 date: 'December 29, 2023'
 excerpt: 'This post will showcase a project utilizing Java and IntelliJ'
-cover_image: '/public/images/tickets-at-purdue/tickets-at-purdue.png'
+cover_image: './lofitea-portfolio/images/tickets-at-purdue/tickets-at-purdue.png'
 ---
 
 # Tickets@Purdue
@@ -27,31 +27,31 @@ There were several features that were put into this project.
 
     Buyers using this marketplace will naturally want to buy tickets.  They have the ability to buy a ticket based on a specific sorting.  They can also remove an item from their shopping cart, view what items are in their shopping cart, and checkout if they wanted to.
 
-    ![alt text](/public/images/tickets-at-purdue/buy-ticket-menu.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
 
     Buyers can sort what types of tickets they have in their shopping cart.
     
-    ![alt text](/public/images/tickets-at-purdue/buy-ticket-sorting.png)
-    ![alt text](/public/images/tickets-at-purdue/buy-ticket-choosing.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-sorting.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-choosing.png)
 
 3. Selling A Ticket (Sellers)
 
     Sellers using this marketplace will naturally want to sell tickets.  They have the ability to sell a ticket, add a ticket or a store, remove a ticket or store, or edit details for a particular store or ticket.
 
-    ![alt text](/public/images/tickets-at-purdue/buy-ticket-menu.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buy-ticket-menu.png)
 
     Sellers can choose whether to create a new store or a new ticket to a specific store.
 
-    ![alt text](/public/images/tickets-at-purdue/sell-ticket-create.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/sell-ticket-create.png)
 
 4. Statistics
 
     Both buyers and sellers have the ability to see their statistics.  They just need to go to the main menu, select the third option, and click on how they want to see their statistics.
 
-    ![alt text](/public/images/tickets-at-purdue/buyer-statistics.png)
-    ![alt text](/public/images/tickets-at-purdue/seller-statistics.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buyer-statistics.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/seller-statistics.png)
 
     Additionally, if a user chooses to, they can see their previous transactional history.  They just need to go to the main menu and click on the second option.
 
-    ![alt text](/public/images/tickets-at-purdue/buyer-menu.png)
-    ![alt text](/public/images/tickets-at-purdue/seller-menu.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/buyer-menu.png)
+    ![alt text](./lofitea-portfolio/images/tickets-at-purdue/seller-menu.png)
