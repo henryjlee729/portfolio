@@ -2,7 +2,7 @@
 title: 'Tickets@Purdue'
 date: 'December 29, 2023'
 excerpt: 'This post will showcase a project utilizing Java and IntelliJ'
-cover_image: './lofitea-portfolio/images/tickets-at-purdue/tickets-at-purdue.png'
+cover_image: './images/tickets-at-purdue/tickets-at-purdue.png'
 ---
 
 # Tickets@Purdue
