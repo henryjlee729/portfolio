@@ -2,7 +2,7 @@
 title: 'GarlicRide'
 date: 'September 16, 2023'
 excerpt: 'This post will explain my project for the 2023 Hello World Hackathon'
-cover_image: './lofitea-portfolio/images/garlic-ride/garlic-ride.png'
+cover_image: './images/garlic-ride/garlic-ride.png'
 ---
 
 # GarlicRide
