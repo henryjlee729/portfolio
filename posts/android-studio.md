@@ -2,7 +2,7 @@
 title: 'Android Studio'
 date: 'January 1, 2024'
 excerpt: 'This post will describe my exploration of mobile app development'
-cover_image: '/public/images/android-studio/android-studio.png'
+cover_image: './lofitea-portfolio/images/android-studio/android-studio.png'
 ---
 
 # Android Studio
