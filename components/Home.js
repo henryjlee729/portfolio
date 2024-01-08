@@ -22,7 +22,7 @@ const Home = () => {
             }}
         >
             <Head>
-                <link rel='icon' href='../public/LofiTea.ico?' />
+                <link rel='icon' href='/LofiTea.ico?' />
             </Head>
             <div className='flex px-4 md:py-32 mx-auto h-screen items-center'>
                 <div className='text-center mx-auto'>
