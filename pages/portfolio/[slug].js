@@ -16,7 +16,7 @@ export default function PostPage({
         <>
             <div className='pt-28 pl-4 pr-4 md:pr-72 md:pl-72 pb-28 shadow-xl'>
                 <Head>
-                    <link rel='icon' href='./lofitea-portfolio/LofiTea.ico' />
+                    <link rel='icon' href='./images/lofitea/LofiTea.jpg' />
                     <title>{title}</title>
                 </Head>
                 <Link href='/portfolio'>
