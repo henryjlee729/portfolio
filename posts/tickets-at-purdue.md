@@ -34,7 +34,7 @@ Several features were put into this project.
     ![](https://lofitea.github.io/lofitea-portfolio/images/tickets-at-purdue/buy-ticket-sorting.png)
     ![](https://lofitea.github.io/lofitea-portfolio/images/tickets-at-purdue/buy-ticket-choosing.png)
 
-4. Selling A Ticket (Sellers)
+3. Selling A Ticket (Sellers)
 
     Sellers using this marketplace will naturally want to sell tickets.  They can sell a ticket, add a ticket or a store, remove a ticket or store, or edit details for a particular store or ticket.
 
@@ -44,7 +44,7 @@ Several features were put into this project.
 
     ![](https://lofitea.github.io/lofitea-portfolio/images/tickets-at-purdue/sell-ticket-create.png)
 
-5. Statistics
+4. Statistics
 
     Both buyers and sellers can see their statistics.  They just need to go to the main menu, select the third option, and click on how they want to see their statistics.
 
