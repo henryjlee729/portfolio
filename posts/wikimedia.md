@@ -7,6 +7,6 @@ cover_image: 'https://lofitea.github.io/lofitea-portfolio/images/wikimedia/wikim
 
 # Wikimedia Content Improvement
 
-For my second semester of my freshman year, I was working with Wikimedia to improve content quality on various sources such as Wikipedia as a part of the learning community I was in.  I got to learn new skills such as SQL and RDF while also learning what role I played in a project like this.
+For the second semester of my freshman year, I was working with Wikimedia to improve content quality on various sources such as Wikipedia as a part of the learning community I was in.  I got to learn new skills such as SQL and RDF while also learning what role I played in a project like this.
 
 More details coming soon...
