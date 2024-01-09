@@ -1,7 +1,7 @@
 ---
 title: 'Worlds Apart'
 date: 'August 21, 2023'
-excerpt: 'This post explains my passion project that I do in my free time'
+excerpt: 'This post explains the passion project that I do in my free time'
 cover_image: 'https://lofitea.github.io/lofitea-portfolio/images/worlds-apart/worlds-apart.png'
 ---
 
@@ -15,11 +15,11 @@ But despite all odds, one must never give up hope.  A small sliver of hope remai
 
 ## Origins
 
-Worlds Apart is a passion project that I had created after years of ideas and brainstorming in my free time.  Whenever I'm not busy programming or doing anything else, I like to come here and tell a story of the world that I created.  
+Worlds Apart is a passion project that I created after years of ideas and brainstorming in my free time.  Whenever I'm not busy programming or doing anything else, I like to come here and tell a story of the world that I created.  
 
-Everything started during the COVID-19 pandemic.  When I couldn't go outside, I created different stories in my mind.  Creating this world was difficult as I had many false starts and I often had to take long breaks because I didn't know how my story would progress.  Additionally, with the pressure of doing well academically in high school so that I can go to college, I couldn't spend a lot of time on this project since school was more important.
+Everything started during the COVID-19 pandemic.  When I couldn't go outside, I created different stories in my mind.  Creating this world was difficult as I had many false starts and I often had to take long breaks because I didn't know how my story would progress.  Additionally, with the pressure of doing well academically in high school so that I could go to college, I couldn't spend a lot of time on this project since school was more important.
 
-However, I never gave up on this project.  I had spent a lot of time developing the world and I didn't want it to go to waste.  After getting out from the COVID slump, I was slowly forming ideas of how I can turn my writing project into something feasible.  When I started my senior year of high school, I had some free time opened up in my schedule so I continued working on this project.  Through hard work and grit, I was finally able to finish a 300-page draft of my story.  I had did it.  I was able to finish something that had took me years to finish
+However, I never gave up on this project.  I had spent a lot of time developing the world and I didn't want it to go to waste.  After getting out of the COVID slump, I was slowly forming ideas of how I could turn my writing project into something feasible.  When I started my senior year of high school, I had some free time opened up in my schedule so I continued working on this project.  Through hard work and grit, I was finally able to finish a 300-page draft of my story.  I have done it.  I was able to finish something that had taken me years to finish
 
 ## Project Edea
 
@@ -27,10 +27,10 @@ Although I was able to finish a draft of my project, when I looked back on it, I
 
 ## Timeline
 
-- 2020: Started writing for this project.  It was originally a story heavily inspired by Harry Potter and Genshin Impact, where the main character would go to a magical academy and discover their powers to eventually defeat an ancient evil that would consume the world.  
+- 2020: Started writing for this project.  It was originally a story heavily inspired by Harry Potter and Genshin Impact, where the main characters would go to a magical academy and discover their powers to eventually defeat an ancient evil that would consume the world.  
 - 2021: Took a pause during my junior year.  My story did not have a clear structure and I didn't know what the direction of the story was going.  Focused on schoolwork.
 - 2022: Had some free time in my senior year since I had some space available in my schedule.  Finished the first draft of my story during the first semester.
-- 2023: Grduated from high school with academic honors.  I started college and is currently studying computer science.  Started the second version of my writing project during my free time.
+- 2023: Graduated from high school with academic honors.  I started college and is currently studying computer science.  Started the second version of my writing project during my free time.
 - 2024:  I expect to finish the expanded version by this year (not sure exactly when).  Finished my freshman year and will start my sophomore year.
 
 ## Progress
