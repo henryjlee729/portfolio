@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="h-screen lg:pl-20 lg:pr-32">
       <Head>
-        <link rel='icon' href='./images/lofitea/LofiTea.jpg' />
+        <link rel='icon' href='/images/beanie.jpg' />
         <title>About</title>
       </Head>
       <div className="flex justify-between md:mx-20 md:pt-32 pt-28">
@@ -81,19 +81,21 @@ const About = () => {
                 Computer Science. I am interested in software development and computer engineering.</p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm a storyteller. Storytelling means communicating ideas, solving problems, and
+                I'm a storyteller. Storytelling means communicating ideas, solving issues, and
                 structuring information and insights. Storytelling is also the best way to people
-                understand ideas and the process to solve problems.
+                understand ideas and the process to solve complex real-world problems.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I am well-versed in several programming languages, including Java, R, Python, HTML, CSS, and Javascript.
+                I am well-versed in several programming languages, including Java, R, Python, C, and C++.
                 I am also familiar with different developer frameworks, such as Git and React.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I am an excellent collaborator, a dedicated person, and a quick learner.  I adapt to any environment
-                that I am in and I aim to do my best in anything that I do.
+                I am passionate about collaboration, known for my dedication to delivering 
+                high-quality work and my ability to quickly adapt to any environment. 
+                With a strong commitment to continuous learning, I thrive in dynamic 
+                settings where innovation and teamwork are valued.
                 This website template was made by <a
                   href="https://github.com/prasad-chavan1"
                   className="underline text-blue-500"

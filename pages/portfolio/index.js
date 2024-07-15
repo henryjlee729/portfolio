@@ -9,7 +9,7 @@ export default function Home({ posts }) {
     return (
         <div className='pt-28 pb-16 md:pl-20 md:pr-20'>
             <Head>
-                <link rel='icon' href='./images/lofitea/LofiTea.jpg' />
+                <link rel='icon' href='./images/beanie.jpg' />
                 <title>Portfolio</title>
             </Head>
             <h1 className='font-bold text-2xl text-center pb-8'>My Portfolio</h1>

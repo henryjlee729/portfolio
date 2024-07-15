@@ -4,7 +4,6 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaRProject } from "react-icons/fa";
@@ -61,10 +60,6 @@ const Skills = () => {
               Python
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <SiMysql size="40px" />
-              SQL
-            </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaBootstrap size="40px" />
               Bootstrap
             </li>
@@ -74,6 +69,9 @@ const Skills = () => {
             <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               C
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              C++
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaRProject size="40px" />
