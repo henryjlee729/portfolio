@@ -77,25 +77,18 @@ const About = () => {
               }}
             >
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm a student attending Purdue University pursuing a Bachelor of Science in
-                Computer Science. I am interested in software development and computer engineering.</p>
+                I'm a Computer Science student at Purdue University, interested in software development and computer engineering.</p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm a storyteller. Storytelling means communicating ideas, solving issues, and
-                structuring information and insights. Storytelling is also the best way to people
-                understand ideas and the process to solve complex real-world problems.
+                I'm a storyteller. As a storyteller, I communicate ideas, solve problems, and organize information effectively. Storytelling helps people understand complex concepts and solutions.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I am well-versed in several programming languages, including Java, R, Python, C, and C++.
-                I am also familiar with different developer frameworks, such as Git and React.
+                I'm proficient in Java, R, Python, C, and C++, and familiar with frameworks like Git and React.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I am passionate about collaboration, known for my dedication to delivering 
-                high-quality work and my ability to quickly adapt to any environment. 
-                With a strong commitment to continuous learning, I thrive in dynamic 
-                settings where innovation and teamwork are valued.
+                I'm passionate about collaboration and known for my dedication to high-quality work and adaptability. I also thrive in dynamic, innovative, and team-oriented environments. 
                 This website template was made by <a
                   href="https://github.com/prasad-chavan1"
                   className="underline text-blue-500"
