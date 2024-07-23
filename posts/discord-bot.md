@@ -93,7 +93,3 @@ This command displays a dropdown.  The user can choose an option.
 Once an option is clicked on, the bot will display a message depending on what choice the user selected.
 
 ![alt text](/images/discord-bot/dropdown_2.png)
-
-## Future Plans
-
-This bot is not perfect and be considered to be somewhat primitive.  If I were to add more things in the future, I would refine the current existing commands and add more custom comamnds to expand the scope of the bot.  I would also try to find a way to host the bot somewhere as I had a lot of difficulty trying to host the current version of the bot.
