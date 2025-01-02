@@ -164,13 +164,24 @@ const Navbar = () => {
                     </h1>
                     <h1
                       className={
-                        router.pathname == "/projects"
+                        router.pathname == "/portfolio"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
                       }
                     >
                       <Link id="portfolio" href="/portfolio">
                         <a onClick={handleMobileNav}>Portfolio</a>
+                      </Link>
+                    </h1>
+                    <h1
+                      className={
+                        router.pathname == "/lofiteafriends"
+                          ? "text-blue-500"
+                          : "cursor-pointer hover:text-blue-500"
+                      }
+                    >
+                      <Link id="about" href="/lofiteafriends">
+                        <a onClick={handleMobileNav}>Home</a>
                       </Link>
                     </h1>
                     <h1
