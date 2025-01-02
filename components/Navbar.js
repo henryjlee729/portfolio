@@ -181,7 +181,7 @@ const Navbar = () => {
                       }
                     >
                       <Link id="about" href="/lofiteafriends">
-                        <a onClick={handleMobileNav}>Home</a>
+                        <a onClick={handleMobileNav}>LofiTea Friends</a>
                       </Link>
                     </h1>
                     <h1
