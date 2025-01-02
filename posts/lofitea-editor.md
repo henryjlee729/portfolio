@@ -1,7 +1,7 @@
 ---
-title: 'LofiTea Text Editor'
+title: 'C Text Editor'
 date: 'July 15, 2024'
-excerpt: 'This post will cover another small programming project'
+excerpt: 'This post will cover a small programming project in C'
 cover_image: '/images/lofitea-editor/lofitea-editor.png'
 ---
 

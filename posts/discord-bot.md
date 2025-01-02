@@ -1,7 +1,7 @@
 ---
 title: 'Discord Bot'
 date: 'July 13, 2024'
-excerpt: 'This post will explore my first personal programming project'
+excerpt: 'This post will explore a programming project involving a bot'
 cover_image: '/images/discord-bot/discord-bot.jpeg'
 ---
 

@@ -6,14 +6,15 @@ const About = () => {
   return (
     <div className="h-screen lg:pl-20 lg:pr-32">
       <Head>
-        <link rel='icon' href='/images/beanie.jpg' />
+        <link rel="icon" href="/images/beanie.jpg" />
         <title>About</title>
       </Head>
       <div className="flex justify-between md:mx-20 md:pt-32 pt-28">
         <div className="flex flex-col md:ml-20 px-10 mt-10">
           <div className="flex flex-col md:flex-row">
             <div className=" md:px-8 ">
-              <motion.div className="md:w-96"
+              <motion.div
+                className="md:w-96"
                 initial="hidden"
                 animate="visible"
                 variants={{
@@ -53,9 +54,9 @@ const About = () => {
               >
                 <h2 className="font-bold text-3xl text-left mb-5">
                   I&#39;m a
-                  <span className="text-blue-500"> Software Developer</span> with a
+                  <span className="text-blue-500"> Problem Solver</span> with a
                   passion for
-                  <span className="text-blue-500"> Computers</span>.
+                  <span className="text-blue-500"> Technology</span>.
                 </h2>
               </motion.div>
             </div>
@@ -77,22 +78,20 @@ const About = () => {
               }}
             >
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm a Computer Science student at Purdue University, interested in software development and computer engineering.</p>
-              <p className="text-left font-normal mb-5 flex-wrap"></p>
-              <p className="text-left font-normal mb-5 flex-wrap">
-                I'm a storyteller. As a storyteller, I communicate ideas, solve problems, and organize information effectively. Storytelling helps people understand complex concepts and solutions.
+                I am pursuing a Bachelor of Science in Computer Science at
+                Purdue University with a minor in Mathematics and I am
+                interested in computers, both in software and hardware.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm proficient in Java, R, Python, C, and C++, and familiar with frameworks like Git and React.
+                I'm a storyteller. Storytelling helps people understand complex
+                concepts and solutions. I communicate ideas, solve problems, and
+                organize information effectively.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm passionate about collaboration and known for my dedication to high-quality work and adaptability. I also thrive in dynamic, innovative, and team-oriented environments. 
-                This website template was made by <a
-                  href="https://github.com/prasad-chavan1"
-                  className="underline text-blue-500"
-                >Prasad Ashok Chavan</a>.
+                I'm passionate about collaborating, adapting, and delivering high-quality 
+                work.  I also thrive in dynamic, innovative, and team-oriented environments.
               </p>
             </motion.div>
           </div>

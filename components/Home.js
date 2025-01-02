@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Image from "next/image";
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -33,8 +34,16 @@ const Home = () => {
                         Software Developer
                     </h1>
                     <p className='text-sm mt-4 sm:leading-relaxed md:text-xl text-black'>
-                        Front-End Developer, Programmer, Storyteller
+                        Programmer, Storyteller, Part-Time Artist
                     </p>
+                    <div className="aspect-w-2 aspect-h-1">
+                        <Image
+                        src="/images/lofitea-friends/hi.gif"
+                        layout="fill"
+                        objectFit="contain"
+                        alt=""
+                        />
+                      </div>
                     <div className='flex flex-wrap justify-center gap-4 mt-8 grid-cols-2'>
                         <Link href='/contact'>
                             <a

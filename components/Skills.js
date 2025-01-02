@@ -8,6 +8,9 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaRProject } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiNumpy } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -33,7 +36,9 @@ const Skills = () => {
           <p className=" font-bold text-blue-900 pb-4 text-center">Skills</p>
 
           <ul className="flex justify-start items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Front-End</span>
+            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
+              Front-End
+            </span>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaReact size="40px" />
               React
@@ -47,26 +52,54 @@ const Skills = () => {
               CSS
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaJs size="40px" />
-              JavaScript
-            </li>
-          </ul>
-
-          <ul className="flex justify-start items-center flex-row flex-wrap gap-8 mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Back-End</span>
-
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaPython size="40px" />
-              Python
-            </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaBootstrap size="40px" />
               Bootstrap
             </li>
           </ul>
 
+          <ul className="flex justify-start items-center flex-row flex-wrap gap-8 mb-2 bg-blue-50 p-8 rounded-2xl">
+            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
+              Back-End
+            </span>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <FaPython size="40px" />
+              Python
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <FaJs size="40px" />
+              JavaScript
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <FaJava size="40px" />
+              Java
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiMysql size="40px" />
+              MySQL
+            </li>
+          </ul>
+
+          <ul className="flex justify-start items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
+            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
+              Data Science
+            </span>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiNumpy size="40px" />
+              Numpy
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiPandas size="40px" />
+              Pandas
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              Matplotlib
+            </li>
+          </ul>
+
           <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
+            <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">
+              Other
+            </span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               C
             </li>
@@ -74,16 +107,14 @@ const Skills = () => {
               C++
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <FaRProject size="40px" />
-              R
+              <FaRProject size="40px" />R
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaGithub size="40px" />
               git/GitHub
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <FaJava size="40px" />
-              Java
+              Analytics
             </li>
           </ul>
         </div>
