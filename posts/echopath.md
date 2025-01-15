@@ -1,6 +1,6 @@
 ---
 title: 'Echopath Software Engineering Intern Project'
-date: 'January 3, 2025'
+date: 'January 15, 2025'
 excerpt: 'This post will cover my work as a software engineering intern in the Fall 2024 semester'
 cover_image: '/images/echopath/echopath.png'
 ---
@@ -21,7 +21,7 @@ I will not show any code from this project due to the involvement of sensitive f
 
 ![alt text](/images/echopath/menu.png)
 
-As seen above in the image, once the program opens, there are five options: append historical data (data added to the first sheet called Historical Data), append projected data (data added to the second sheet called Financial Data), append actual data (data added to the second sheet called Financial Data), view sheets, and quit.  The way the program works is by selecting an option and then adding a specific file based on the type of data being added.
+As seen above in the image, once the program opens, there are five options: append historical data (data added to the first sheet called Historical Data), append projected data (data added to the second sheet called Financial Data), append actual data (data added to the second sheet called Financial Data), abort changes, preview sheets, quit and open Excel file, and quit.  The way the program works is by selecting an option and then adding a specific file based on the type of data being added.
 
 There are three types of CSV files being added: historical data, projected data, and actual data.  The historical data is a list of all of the data from previous years and acts as a record from previous years.  The projected data is data projecting the budget for an entire year while the actual data is meant to be used to compare how the budget is spent monthly.  For example, the actual data could show that the company saved some money in the first month, lost some money in the fifth month, and more.
 
@@ -64,6 +64,10 @@ The audit log is meant to act as a record of what type of file has been added to
 - Date & Time: The date and time at which the file was being added
 - Data Type: The type of data being added (historical data, projected data, actual data)
 
+## Aborting Unwanted Changes
+
+The fourth option in the menu is a safety measure where if a user does not want to add their additions to the Excel file, they have the option to remove those changes and revert the Excel file from the previous session.  This all happens when the user opens up the prompt, where a backup Excel file is made and all of the new changes are added to the original Excel file.  If the user decides to abort changes, the program will close, the backup Excel file will become the original, and the original Excel file will be deleted.
+
 ## Technologies Utilized
 
 This project involved utilizing Python and PyCharm to read CSV files.  The project works by clicking on a Windows Batch script, which will reveal a window with several options.
@@ -86,4 +90,4 @@ The ultimate goal is to be able to build a dashboard in the Excel file with grap
 
 ![alt text](/images/echopath/dashboard.png)
 
-At the time of writing, this project is still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.
+At the time of writing, the next phase is to incorporate the QuickBooks API and get data from there.  This project is also still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.

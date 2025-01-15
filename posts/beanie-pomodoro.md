@@ -1,6 +1,6 @@
 ---
 title: 'Beanie Pomodoro'
-date: 'January 2, 2025'
+date: 'January 8, 2025'
 excerpt: 'This post will explain a Pomodoro-based personal project'
 cover_image: '/images/beanie-pomodoro/beanie.png'
 ---
@@ -9,7 +9,7 @@ cover_image: '/images/beanie-pomodoro/beanie.png'
 
 Ever since Google's controversial changes to manifest V3 in Chrome's extension, I have decided to switch from Chrome to Firefox due to privacy reasons.  I used to depend on the Mariana Pomodoro to help me study but after I switched, I can no longer use that web extension due to differences in how web extensions work between Chrome and Firefox.
 
-To see the code, please visit  <a href = "https://github.com/LofiTea/beanie-pomodoro"> link</a>.
+To see the code, please visit <a href = "https://github.com/LofiTea/beanie-pomodoro"> link</a>.
 
 ## The Development Process
 
@@ -73,11 +73,11 @@ I have included some other features:
 
 ## Next Steps
 
-I am currently in the middle of trying to fix all of the bugs in the back-end of the extension.  Once I feel that everything is working as intended, I will update it and perhaps even publish it to the Firefox Web Store.
+I have completed a beta where it looks like most of the functionality seems to be working as expected.  More rigorous testing may follow as I try to ensure the application is as complete as it is, but for now, the project is done.
 
 I can see myself adding some possible new features in the future, which may include:
 - A dark mode
 - A separate appplication for this pomodoro instead of just a web extension
 - More enhanced statistics 
 
-At the time of writing, this project is still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.
+If any other changes have occurred, I will write them down here.
