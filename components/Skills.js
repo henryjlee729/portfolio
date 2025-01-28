@@ -119,57 +119,6 @@ const Skills = () => {
           </ul>
         </div>
       </div>
-
-      <div className="w-full pb-32">
-        <div className="mx-auto flex flex-col justify-center">
-          <p className="font-bold text-blue-900 pb-4 text-center">Courses</p>
-
-          <ul className="flex justify-start items-center flex-col gap-4 mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
-              Fundamental CS Courses
-            </span>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              CS 180: Object-Oriented Programming
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              CS 182: Foundations of Computer Science (Discrete Mathematics)
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              CS 240: Programming in C
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              CS 250: Computer Architecture
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              CS 251: Data Structures And Algorithms
-            </li>
-          </ul>
-
-          <ul className="flex justify-start items-center flex-col gap-4 mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
-              Mathematic Courses
-            </span>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              MA 261: Multivariate Calculus
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              MA 351: Elementary Linear Algebra
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              STAT 355: Statistics for Data Science
-            </li>
-          </ul>
-
-          <ul className="flex justify-start items-center flex-col gap-4 mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center md:w-fit">
-              Machine Learning Track Courses
-            </span>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              Not Yet Available...
-            </li>
-          </ul>
-        </div>
-      </div>
     </motion.div>
   );
 };

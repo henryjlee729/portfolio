@@ -73,11 +73,6 @@ I have included some other features:
 
 ## Next Steps
 
-I have completed a beta where it looks like most of the functionality seems to be working as expected.  More rigorous testing may follow as I try to ensure the application is as complete as it is, but for now, the project is done.
-
-I can see myself adding some possible new features in the future, which may include:
-- A dark mode
-- A separate appplication for this pomodoro instead of just a web extension
-- More enhanced statistics 
+Right now, a version for both the Firefox and Chrome versions have been made.  The link to the Firefox extension is <a href = "https://addons.mozilla.org/en-US/firefox/addon/beanie-pomodoro/"> here </a> and the Chrome extension <a href = "https://chromewebstore.google.com/detail/beanie-pomodoro/gaaikgggdnjcolgjbekolakckfknpcop"> here</a>.
 
 If any other changes have occurred, I will write them down here.

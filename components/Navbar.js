@@ -52,6 +52,17 @@ const Navbar = () => {
                     </h1>
                     <h1
                       className={
+                        router.pathname == "/projects"
+                          ? "text-blue-500"
+                          : "cursor-pointer hover:text-blue-500"
+                      }
+                    >
+                    <Link id="projects" href="/projects">
+                        <a>Projects</a>
+                      </Link>
+                    </h1>
+                    <h1
+                      className={
                         router.pathname == "/portfolio"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
@@ -63,13 +74,13 @@ const Navbar = () => {
                     </h1>
                     <h1
                       className={
-                        router.pathname == "/lofiteafriends"
+                        router.pathname == "/characters"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
                       }
                     >
-                      <Link id="lofiteafriends" href="/lofiteafriends">
-                        <a>LofiTea Friends</a>
+                      <Link id="characters" href="/characters">
+                        <a>Characters</a>
                       </Link>
                     </h1>
                     <h1
@@ -169,19 +180,30 @@ const Navbar = () => {
                           : "cursor-pointer hover:text-blue-500"
                       }
                     >
+                      <Link id="projects" href="/projects">
+                        <a onClick={handleMobileNav}>Projects</a>
+                      </Link>
+                    </h1>
+                    <h1
+                      className={
+                        router.pathname == "/projects"
+                          ? "text-blue-500"
+                          : "cursor-pointer hover:text-blue-500"
+                      }
+                    >
                       <Link id="portfolio" href="/portfolio">
                         <a onClick={handleMobileNav}>Portfolio</a>
                       </Link>
                     </h1>
                     <h1
                       className={
-                        router.pathname == "/lofiteafriends"
+                        router.pathname == "/characters"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
                       }
                     >
-                      <Link id="about" href="/lofiteafriends">
-                        <a onClick={handleMobileNav}>LofiTea Friends</a>
+                      <Link id="about" href="/characters">
+                        <a onClick={handleMobileNav}>Characters</a>
                       </Link>
                     </h1>
                     <h1

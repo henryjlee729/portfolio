@@ -90,8 +90,9 @@ const About = () => {
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">
-                I'm passionate about collaborating, adapting, and delivering high-quality 
-                work.  I also thrive in dynamic, innovative, and team-oriented environments.
+                I'm passionate about collaborating, adapting, and delivering
+                high-quality work. I also thrive in dynamic, innovative, and
+                team-oriented environments.
               </p>
             </motion.div>
           </div>
