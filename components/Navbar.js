@@ -175,7 +175,7 @@ const Navbar = () => {
                     </h1>
                     <h1
                       className={
-                        router.pathname == "/portfolio"
+                        router.pathname == "/projects"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
                       }
@@ -186,7 +186,7 @@ const Navbar = () => {
                     </h1>
                     <h1
                       className={
-                        router.pathname == "/projects"
+                        router.pathname == "/portfolio"
                           ? "text-blue-500"
                           : "cursor-pointer hover:text-blue-500"
                       }
