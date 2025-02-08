@@ -1,7 +1,7 @@
 ---
 title: 'Discord Bot'
 date: 'July 13, 2024'
-excerpt: 'This post will explore a programming project involving a bot'
+excerpt: 'Keywords: Discord Bot, Python, API Calls, Nextcord, SQL, Data Storage'
 cover_image: '/images/discord-bot/discord-bot.jpeg'
 ---
 

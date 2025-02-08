@@ -1,7 +1,7 @@
 ---
 title: 'Echopath Software Engineering Intern Project'
 date: 'January 15, 2025'
-excerpt: 'This post will cover my work as a software engineering intern in the Fall 2024 semester'
+excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel, Quickbooks'
 cover_image: '/images/echopath/echopath.png'
 ---
 

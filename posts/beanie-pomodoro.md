@@ -1,7 +1,7 @@
 ---
 title: 'Beanie Pomodoro'
 date: 'January 8, 2025'
-excerpt: 'This post will explain a Pomodoro-based personal project'
+excerpt: 'Keywords: HTML, CSS, JavaScript, Web Extension, Pomodoro, Front-End, Back-End'
 cover_image: '/images/beanie-pomodoro/beanie.png'
 ---
 

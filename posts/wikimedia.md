@@ -1,7 +1,7 @@
 ---
 title: 'Wikimedia Corporate Partners Project'
 date: 'July 9, 2024'
-excerpt: 'This post will cover my Spring 2024 Data Mine Corporate Partners project'
+excerpt: 'Keywords: Data Processing, Python, SPARQL, Jupyter Notebook, REST APIs, MusicBrainz'
 cover_image: '/images/wikimedia/wikimedia.png'
 ---
 

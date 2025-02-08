@@ -1,7 +1,7 @@
 ---
 title: 'Undergraduate Research Assistant in Virtual Reality'
 date: 'June 1, 2025'
-excerpt: 'This post will explain my role as an undergraduate research assistant'
+excerpt: 'Keywords: LiDAR, Unity Engine, Interpolation, 3D'
 cover_image: '/images/virtual-reality/unity.png'
 ---
 

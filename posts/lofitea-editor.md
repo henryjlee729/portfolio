@@ -1,7 +1,7 @@
 ---
 title: 'C Text Editor'
 date: 'July 15, 2024'
-excerpt: 'This post will cover a small programming project in C'
+excerpt: 'Keywords: C, Systems Programming, Makefile, Command-Line Interface'
 cover_image: '/images/lofitea-editor/lofitea-editor.png'
 ---
 

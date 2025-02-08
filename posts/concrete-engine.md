@@ -1,7 +1,7 @@
 ---
 title: 'Concrete Engine Corporate Partners Project'
 date: 'January 1, 2025'
-excerpt: 'This post will cover my Fall 2024 Data Mine Corporate Partners project'
+excerpt: 'Keywords: Agile, JavaScript, MongoDB, Visual Studio, Google Cloud Storage'
 cover_image: '/images/concrete-engine/concrete-engine.jpg'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "JP Morgan Software Engineering @ Forage"
 date: "July 8, 2024"
-excerpt: "This post will describe a virtual software engineering task I did with JP Morgan"
+excerpt: "Keywords: Data Visualization, Python, PyCharm, Unit Testing, Node.js, Stock Price Analysis"
 cover_image: "/images/forage/forage.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "GarlicRide"
 date: "September 16, 2023"
-excerpt: "This post will showcase my project for the 2023 Hello World Hackathon"
+excerpt: "Keywords: Hackathon, HTML, CSS, Bootstrap, Google Maps API, Ridesharing, Front-End"
 cover_image: "/images/garlic-ride/garlic-ride.png"
 ---
 

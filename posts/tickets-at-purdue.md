@@ -1,7 +1,7 @@
 ---
 title: 'Tickets@Purdue'
 date: 'December 29, 2023'
-excerpt: 'This post will showcase a project utilizing Java and IntelliJ'
+excerpt: 'Keywords: Java, IntelliJ, Git, Concurrency, Multi-threading, GUI, Marketplace'
 cover_image: '/images/tickets-at-purdue/tickets-at-purdue.png'
 ---
 
