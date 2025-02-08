@@ -7,7 +7,7 @@ cover_image: '/images/bejanaro-notes/homepage.png'
 
 # Bejanaro Notes
 
-In the spring semester of my sophomore year, I am currently taking CS 25100: Data Structure and Algorithms.  This is a very important class that I need to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class.
+In the spring semester of my sophomore year, I am currently taking CS 25100: Data Structure and Algorithms.  This is a very important class that I need to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
 
 However, while I took the class, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
 
