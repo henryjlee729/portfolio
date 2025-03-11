@@ -13,6 +13,39 @@ const projects = () => {
       <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-28">
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Financial Data Converter
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/echopath/menu2.png"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                This project involved building a financial dashboard for the
+                company leadership that takes in CSV files (and Excel files for
+                certain options) and appended them to an Excel file. There are four types of 
+                data being imported: historical data, balance data, projected data, 
+                and actual data. This project can help keep track of
+                income and expense streams to ensure that the company systems
+                are working as intended.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Python, PyCharm, Tkinter, Git, GitHub
+                </p>
+              </cite>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
             Beanie Pomodoro
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">

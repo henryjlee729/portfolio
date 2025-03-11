@@ -1,7 +1,7 @@
 ---
 title: 'Echopath Software Engineering Intern Project'
-date: 'January 15, 2025'
-excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel, Quickbooks'
+date: 'March 10, 2025'
+excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel'
 cover_image: '/images/echopath/echopath.png'
 ---
 
@@ -15,15 +15,15 @@ Echopath is an Indianapolis-based IT company that helps individuals and organiza
 
 ## The Project
 
-My project involved building a financial dashboard for the company leadership that takes in CSV files and appended them to an Excel file.  The CSV files had a specific structure that had to reformatted and added into an Excel file with several sheets.  The entire purpose of this project is important for every company: keep track of income and expense streams to ensure that the company systems are working as intended.
+My project involved building a financial dashboard for the company leadership that takes in CSV files (and Excel files for certain options) and appended them to an Excel file.  The CSV files had a specific structure that had to reformatted and added into an Excel file with several sheets.  The entire purpose of this project is important for every company: keep track of income and expense streams to ensure that the company systems are working as intended.
 
 I will not show any code from this project due to the involvement of sensitive financial information.  However, what I can do is show what I have worked on in my internship so far.
 
 ![alt text](/images/echopath/menu.png)
 
-As seen above in the image, once the program opens, there are five options: append historical data (data added to the first sheet called Historical Data), append projected data (data added to the second sheet called Financial Data), append actual data (data added to the second sheet called Financial Data), abort changes, preview sheets, quit and open Excel file, and quit.  The way the program works is by selecting an option and then adding a specific file based on the type of data being added.
+As seen above in the image, once the program opens, there are eight options: append historical data (data added to the first sheet called Historical Data), append projected data (data added to the second sheet called Financial Data), append actual data (data added to the second sheet called Financial Data), abort changes, preview sheets, quit and open Excel file, and quit.  The way the program works is by selecting an option and then adding a specific file based on the type of data being added.
 
-There are three types of CSV files being added: historical data, projected data, and actual data.  The historical data is a list of all of the data from previous years and acts as a record from previous years.  The projected data is data projecting the budget for an entire year while the actual data is meant to be used to compare how the budget is spent monthly.  For example, the actual data could show that the company saved some money in the first month, lost some money in the fifth month, and more.
+There are four types of CSV files being added: historical data, balance data, projected data, and actual data.  The historical data is a list of all of the data from previous years and acts as a record from previous years.  The balance data is a list of assets and liabilities for the company.  Both historical and projected data has the ability to take in Excel sheets as well as csv files but it is based on a specific format.  The projected data is data projecting the budget for an entire year while the actual data is meant to be used to compare how the budget is spent monthly.  For example, the actual data could show that the company saved some money in the first month, lost some money in the fifth month, and more.  
 
 There are also three sheets utilized in the Excel file: Historical Data, Financial Data, and Audit Log.  There is more information about these sheets down below.
 
@@ -42,7 +42,11 @@ The historical data sheet has six categories:
 
 As seen above in the image while also only focusing on the first six columns, the structure of this sheet was requested as a part of the first sheet.
 
-## The Second Sheet: Financial Data
+## The Second Sheet: Balance Data
+
+The balance data sheet follows the same structure as the historical data but with different values from different datasets.
+
+## The Third Sheet: Financial Data
 
 The financial data sheet has six categories:
 
@@ -56,7 +60,7 @@ The financial data sheet has six categories:
 
 The first three columns were for the projected data while the next three columns were for the actual data.  Both of them were reformatted to match the three-column type.  The seventh column was requested to be added since it allows the leadership to see how much money they saved/lost based on their projected data and the actual amount for that specific income/expense type.  That way, it allowed them to make decisions based on this information.
 
-## The Third Sheet: Audit Log
+## The Fourth Sheet: Audit Log
 
 The audit log is meant to act as a record of what type of file has been added to the Excel file.  It has three columns:
 
@@ -90,4 +94,4 @@ The ultimate goal is to be able to build a dashboard in the Excel file with grap
 
 ![alt text](/images/echopath/dashboard.png)
 
-At the time of writing, the next phase is to incorporate the QuickBooks API and get data from there.  This project is also still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.
+This project is also still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.
