@@ -1,11 +1,11 @@
 ---
-title: 'Echopath Software Engineering Intern Project'
+title: 'Financial Data Converter Application'
 date: 'March 10, 2025'
 excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel'
 cover_image: '/images/echopath/echopath.png'
 ---
 
-# Echopath Software Engineering Intern
+# Financial Data Converter Application
 
 In Fall 2024, I was able to get a remote internship from Echopath LLC.  This remote internship allows me to work on my programming skills while getting advice and feedback from my mentor, both on career advice and the project itself.
 
@@ -15,9 +15,9 @@ Echopath is an Indianapolis-based IT company that helps individuals and organiza
 
 ## The Project
 
-My project involved building a financial dashboard for the company leadership that takes in CSV files (and Excel files for certain options) and appended them to an Excel file.  The CSV files had a specific structure that had to reformatted and added into an Excel file with several sheets.  The entire purpose of this project is important for every company: keep track of income and expense streams to ensure that the company systems are working as intended.
+My first project involved building a financial dashboard for the company leadership that takes in CSV files (and Excel files for certain options) and appended them to an Excel file.  The CSV files had a specific structure that had to reformatted and added into an Excel file with several sheets.  The entire purpose of this project is important for every company: keep track of income and expense streams to ensure that the company systems are working as intended.
 
-I will not show any code from this project due to the involvement of sensitive financial information.  However, what I can do is show what I have worked on in my internship so far.
+I will not show any code from this project due to the involvement of sensitive financial information.  However, what I can do is show what I have worked on in this project.
 
 ![alt text](/images/echopath/menu.png)
 
@@ -90,8 +90,8 @@ Some safety measures have been added to the program to prevent it from crashing.
 
 ## Next Steps
 
-The ultimate goal is to be able to build a dashboard in the Excel file with graphs and trends based on the data inserted in the Excel file.  The dashboard follows Pineapple Consulting's dashboard as seen below:
+I am now done with the project, but if more time was allowed, the ultimate goal is to be able to build a dashboard in the Excel file with graphs and trends based on the data inserted in the Excel file.  The dashboard follows Pineapple Consulting's dashboard as seen below:
 
 ![alt text](/images/echopath/dashboard.png)
 
-This project is also still ongoing and is subject to change.  If any other changes have occurred, I will write them down here.
+This project is subject to change.

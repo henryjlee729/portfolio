@@ -1,10 +1,10 @@
 ---
 title: 'SURF Project'
 date: 'August 10, 2025'
-excerpt: 'Keywords: TBD'
+excerpt: 'Keywords: Haptics, Python, TBD'
 cover_image: '/images/surf/surf.png'
 ---
 
 # My SURF Project
 
-More details coming soon...
+I will be doing summer research with haptics and Python.  More details coming soon...

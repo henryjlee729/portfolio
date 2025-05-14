@@ -79,8 +79,8 @@ const About = () => {
             >
               <p className="text-left font-normal mb-5 flex-wrap">
                 I am pursuing a Bachelor of Science in Computer Science at
-                Purdue University with a minor in Mathematics and I am
-                interested in computers, both in software and hardware.
+                Purdue University with a minor in Mathematics. I am
+                interested in problem-solving with software.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">

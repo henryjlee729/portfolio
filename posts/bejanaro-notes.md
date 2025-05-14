@@ -1,15 +1,15 @@
 ---
 title: 'Bejanaro Notes'
-date: 'Feburary 8, 2025'
-excerpt: 'Keywords: TypeScript, Notes'
+date: 'May 14, 2025'
+excerpt: 'Keywords: TypeScript, Notes, Data Structures and Algorithms'
 cover_image: '/images/bejanaro-notes/homepage.png'
 ---
 
 # Bejanaro Notes
 
-In the spring semester of my sophomore year, I am currently taking CS 25100: Data Structure and Algorithms.  This is a very important class that I need to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
+In the spring semester of my sophomore year, I have taken CS 25100: Data Structure and Algorithms.  This is a very important class that I needed to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
 
-However, while I take the class in the fall semester, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website is <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
+However, when I took the class in the fall semester, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website is <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
 
 ## The Issue
 
@@ -21,4 +21,4 @@ I did not change too much regarding the website.  The overall structure is the s
 
 ![alt text](/images/bejanaro-notes/notes.png)
 
-I will continue to add the lecture notes for this class until the end of the semester.  In the meantime, the link to the customized lecture notes website is <a href = "https://lofitea.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/LofiTea/BejanaroNotes"> here</a>.
+With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://lofitea.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/LofiTea/BejanaroNotes"> here</a>.

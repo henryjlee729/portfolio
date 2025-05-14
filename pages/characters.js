@@ -10,7 +10,7 @@ const characters = () => {
           <link rel="icon" href="./images/beanie.jpg" />
         </Head>
         <h1 className="font-bold text-3xl text-center">
-          Meet the LofiTea Friends!
+          Meet the LofiTea Friends! (art will be updated very soon)
         </h1>
         <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-10">
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
@@ -29,8 +29,8 @@ const characters = () => {
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
                   Meet Henry, the person who made this website! He is a
-                  daydreamer who likes to do go to different fantasy worlds when
-                  he is not busy with other things.
+                  daydreamer who doesn't understand why Kirby is pink when
+                  he is not busy.
                 </p>
               </blockquote>
             </div>
@@ -38,7 +38,7 @@ const characters = () => {
 
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Kael
+              Kaelen
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
@@ -51,9 +51,9 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  This is Kael, a soldier who is a part-time DJ. His favorite
-                  activities include travelling, singing, and meditating. Oddily
-                  enough, he prefers to not talk to people.
+                  This is Kaelen, a former soldier. His favorite
+                  activities include travelling, singing, meditating, and not 
+                  talking to people.
                 </p>
               </blockquote>
             </div>
@@ -74,11 +74,8 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Say hello to Aira, a spray-painting artists who is very much
-                  against capitalism. She believes in the fundamental idea that
-                  all humans are made equal regardless of status. That idea is
-                  very funny since she might be a conscious artificial
-                  intelligence...
+                  Say hello to Aira, a spray-painting artist who believes in equalism.
+                  Ironically enough, she is a conscious AI...
                 </p>
               </blockquote>
             </div>
@@ -86,7 +83,7 @@ const characters = () => {
 
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Seraphion
+              Serion
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
@@ -99,7 +96,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Seraphion, this is the world. The world, Seraphion. A weakened
+                  Serion, this is the world. The world, Serion. A weakened
                   angel with the holy sword whose wings got burned in an
                   unfortunate "accident", he is forever doomed to be the black
                   sheep of the angel world. Interestingly, he hates tomatoes.
@@ -134,7 +131,7 @@ const characters = () => {
 
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Cassiel
+              Luca
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
@@ -147,7 +144,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Ah, yes. Cassiel, the first of the Wild Duo. He is constantly
+                  Ah, yes. Luca, the first of the Wild Duo. He is constantly
                   finding ways to pick a fight with other people while always
                   losing. No matter what he says, he will never, ever get the
                   roadrunner.
@@ -198,7 +195,7 @@ const characters = () => {
                 <p className="text-xs md:text-base">
                   This is my large-scale fantasy project! Consisting of five
                   worlds and a long history, Worlds Apart is a tale of two
-                  characters (Cassiel and Raella) trying to prevent the
+                  characters (Luca and Raella) trying to prevent the
                   destruction of the Realms before it is too late. The story is
                   currently in progress although you can see the completed draft
                   down below. The story is currently over 700 pages and it took

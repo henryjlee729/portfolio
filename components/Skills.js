@@ -5,6 +5,7 @@ import { FaPython } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { FaRust } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaRProject } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -112,6 +113,10 @@ const Skills = () => {
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaGithub size="40px" />
               git/GitHub
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <FaRust size="40px" />
+              Rust
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               Analytics
