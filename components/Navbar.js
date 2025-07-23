@@ -101,7 +101,7 @@ const Navbar = () => {
                   <div className="flex space-x-4">
                     <div>
                       <a
-                        href="https://github.com/LofiTea"
+                        href="https://github.com/henryjlee729"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -110,7 +110,7 @@ const Navbar = () => {
                     </div>
                     <div>
                       <a
-                        href="https://www.linkedin.com/in/lofitea/"
+                        href="https://www.linkedin.com/in/henryjlee729/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -222,7 +222,7 @@ const Navbar = () => {
                     <div className="flex space-x-4">
                       <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer">
                         <a
-                          href="https://github.com/LofiTea"
+                          href="https://github.com/henryjlee729"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -231,7 +231,7 @@ const Navbar = () => {
                       </div>
                       <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer">
                         <a
-                          href="https://www.linkedin.com/in/lofitea/"
+                          href="https://www.linkedin.com/in/henryjlee729/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
