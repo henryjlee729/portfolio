@@ -52,4 +52,4 @@ There were two main features that our demo employed: the forum and the map.
 
    ![alt text](/images/garlic-ride/map.png)
 
-To see the full repository, go to this <a href = "https://github.com/LofiTea/helloworld-hackathon"> link</a>.
+To see the full repository, go to this <a href = "https://github.com/henryjlee729/garlic-ride"> link</a>.

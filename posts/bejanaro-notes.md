@@ -21,4 +21,4 @@ I did not change too much regarding the website.  The overall structure is the s
 
 ![alt text](/images/bejanaro-notes/notes.png)
 
-With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://lofitea.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/LofiTea/BejanaroNotes"> here</a>.
+With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://henryjlee729.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/henryjlee729/BejanaroNotes"> here</a>.

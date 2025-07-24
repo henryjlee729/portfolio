@@ -43,7 +43,7 @@ The simulation was done in three tasks:
 
    ![alt text](/images/forage/task1-unit-testing.png)
 
-   My full work for this task can be seen <a href='https://github.com/LofiTea/forage-jpmc-swe-task-1'>here</a>.
+   My full work for this task can be seen <a href='https://github.com/henryjlee729/forage-jpmc-swe-task-1'>here</a>.
 
 2. Using JMPC Frameworks And Tools
 
@@ -64,7 +64,7 @@ The simulation was done in three tasks:
 
    ![alt text](/images/forage/task2-after.png)
 
-   My full work for this task can be seen <a href='https://github.com/LofiTea/forage-jpmc-swe-task-2'>here</a>.
+   My full work for this task can be seen <a href='https://github.com/henryjlee729/forage-jpmc-swe-task-2'>here</a>.
 
 3. Use Perspective To Create A Chart
 
@@ -87,7 +87,7 @@ The simulation was done in three tasks:
 
    ![alt text](/images/forage/task3-after.png)
 
-   My full work for this task can be seen <a href='https://github.com/LofiTea/forage-jpmc-swe-task-3'>here</a>.
+   My full work for this task can be seen <a href='https://github.com/henryjlee729/forage-jpmc-swe-task-3'>here</a>.
 
 ## Important Info
 

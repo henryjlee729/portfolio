@@ -9,7 +9,7 @@ cover_image: '/images/beanie-pomodoro/beanie.png'
 
 Ever since Google's controversial changes to manifest V3 in Chrome's extension, I have decided to switch from Chrome to Firefox due to privacy reasons.  I used to depend on the Mariana Pomodoro to help me study but after I switched, I can no longer use that web extension due to differences in how web extensions work between Chrome and Firefox.
 
-To see the code, please visit <a href = "https://github.com/LofiTea/beanie-pomodoro"> link</a>.
+To see the code, please visit <a href = "https://github.com/henryjlee729/beanie-pomodoro"> link</a>.
 
 ## The Development Process
 

@@ -56,4 +56,4 @@ There were several features that were put into this project.
     ![alt text](/images/tickets-at-purdue/buyer-menu.png)
     ![alt text](/images/tickets-at-purdue/seller-menu.png)
 
-To see the full repository, go to this <a href = "https://github.com/LofiTea/TicketsAtPurdue"> link</a>.
+To see the full repository, go to this <a href = "https://github.com/henryjlee729/TicketsAtPurdue"> link</a>.

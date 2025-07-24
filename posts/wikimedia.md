@@ -93,4 +93,4 @@ While my method helped me find my mismatches, it is inefficient and time-consumi
 
 Through this work, I learned how programming is applied to practical applications and the importance of collaboration to ensure a project's success. This experience has been instrumental in my development, teaching me how to tackle complex problems and work effectively with others.
 
-To see the full details of my mismatches, go to this <a href = "https://github.com/LofiTea/Wikidata-Mismatches"> link</a>.
+To see the full details of my mismatches, go to this <a href = "https://github.com/henryjlee729/Wikidata-Mismatches"> link</a>.

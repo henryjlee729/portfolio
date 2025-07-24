@@ -100,7 +100,7 @@ const projects = () => {
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="aspect-w-5 aspect-h-3">
               <Image
-                src="/images/echopath/menu2.png"
+                src="/images/data-converter/menu2.png"
                 layout="fill"
                 objectFit="contain"
                 alt=""

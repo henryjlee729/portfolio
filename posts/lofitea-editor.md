@@ -7,7 +7,7 @@ cover_image: '/images/lofitea-editor/lofitea-editor.png'
 
 # A Text Editor in C
 
-This is also another small programming project that I worked on over the summer of 2024.  This is a modified version of antirez's kil editor that I learned how to build from scratch with over 1,000 lines of C code.  The original tutorial code can be found <a href = "https://github.com/snaptoken/kilo-tutorial">here</a> and my small modifications of this text editor can be found <a href = "https://github.com/LofiTea/lofitea-text-editor">here</a>.
+This is also another small programming project that I worked on over the summer of 2024.  This is a modified version of antirez's kil editor that I learned how to build from scratch with over 1,000 lines of C code.  The original tutorial code can be found <a href = "https://github.com/snaptoken/kilo-tutorial">here</a> and my small modifications of this text editor can be found <a href = "https://github.com/henryjlee729/lofitea-text-editor">here</a>.
 
 ## The Basic Idea
 

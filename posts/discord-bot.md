@@ -7,7 +7,7 @@ cover_image: '/images/discord-bot/discord-bot.jpeg'
 
 # A.U.R.O.R.A.
 
-Meet A.U.R.O.R.A., the Automated User Response and Operational Reconnaissance Assistant! This is a customized LofiTea Discord bot! Although sarcastic, she is a helpful companion who can help you run your local Discord server!
+Meet A.U.R.O.R.A., the Automated User Response and Operational Reconnaissance Assistant! This is a customized Discord bot! Although sarcastic, she is a helpful companion who can help you run your local Discord server!
 
 ![alt text](/images/discord-bot/boba-tea.jpg)
 
@@ -32,7 +32,7 @@ There are a total of 32 custom commands that can be used.  They range from havin
 
 The commands are slash commands, which means they use a slash before the command work to work.
 
-To see the code behind the bot, the link to the code will be <a href = "https://github.com/LofiTea/A.U.R.O.R.A.">here</a>.  Meanwhile, down below are some highlights of the discord bot.
+To see the code behind the bot, the link to the code will be <a href = "https://github.com/henryjlee729/A.U.R.O.R.A.">here</a>.  Meanwhile, down below are some highlights of the discord bot.
 
 ## /hello
 
