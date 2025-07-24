@@ -1,7 +1,7 @@
 ---
 title: 'SURF Project'
 date: 'August 10, 2025'
-excerpt: 'Keywords: Haptics, Python, TBD'
+excerpt: 'Keywords: MATLAB, TBD'
 cover_image: '/images/surf/surf.png'
 ---
 

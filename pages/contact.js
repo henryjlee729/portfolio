@@ -65,7 +65,7 @@ const Contact = () => {
                             LinkedIn:{' '}
                             <a
                                 className='text-blue-500 hover:underline'
-                                href='https://www.linkedin.com/in/lofitea/'
+                                href='https://www.linkedin.com/in/henryjlee729/'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >

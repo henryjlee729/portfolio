@@ -13,7 +13,7 @@ const projects = () => {
       <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-28">
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-            Ticket Categorization
+            Kirby's Flapventure
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="aspect-w-5 aspect-h-3">
@@ -26,8 +26,62 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                This project involves machine learning models and tickets.  More data
-                coming soon...
+                This project involves machine learning models and tickets. More
+                data coming soon...
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Python, Rust, Machine Learning
+                </p>
+              </cite>
+            </blockquote>
+          </div>
+        </section>
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Digit Classifier
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/ticket-categorization/machine-learning.png"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                This project involves machine learning models and tickets. More
+                data coming soon...
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Python, Rust, Machine Learning
+                </p>
+              </cite>
+            </blockquote>
+          </div>
+        </section>
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Ticket Search Utility
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/ticket-categorization/machine-learning.png"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                This project involves machine learning models and tickets. More
+                data coming soon...
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
@@ -111,7 +165,7 @@ const projects = () => {
               <div className="flex pt-8 space-x-4">
                 <div>
                   <a
-                    href="https://github.com/LofiTea/beanie-pomodoro"
+                    href="https://github.com/henryjlee729/beanie-pomodoro"
                     target="_blank"
                     rel="noopner noreferrer"
                   >
@@ -157,7 +211,7 @@ const projects = () => {
               <div className="flex pt-8 space-x-4">
                 <div>
                   <a
-                    href="https://github.com/LofiTea/Wikidata-Mismatches"
+                    href="https://github.com/henryjlee729/Wikidata-Mismatches"
                     target="_blank"
                     rel="noopner noreferrer"
                   >
@@ -204,7 +258,7 @@ const projects = () => {
               <div className="flex pt-8 space-x-4">
                 <div>
                   <a
-                    href="https://github.com/LofiTea/TicketsAtPurdue"
+                    href="https://github.com/henryjlee729/TicketsAtPurdue"
                     target="_blank"
                     rel="noopner noreferrer"
                   >

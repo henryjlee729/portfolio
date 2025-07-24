@@ -10,7 +10,7 @@ const characters = () => {
           <link rel="icon" href="./images/beanie.jpg" />
         </Head>
         <h1 className="font-bold text-3xl text-center">
-          Meet the LofiTea Friends! (art will be updated very soon)
+          Meet the LofiTea Friends!
         </h1>
         <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-10">
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">

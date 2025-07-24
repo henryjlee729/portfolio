@@ -1,8 +1,8 @@
 ---
 title: 'Financial Data Converter Application'
-date: 'March 10, 2025'
+date: 'August 13, 2025'
 excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel'
-cover_image: '/images/echopath/echopath.png'
+cover_image: '/images/data-converter/echopath.png'
 ---
 
 # Financial Data Converter Application
@@ -19,7 +19,7 @@ My first project involved building a financial dashboard for the company leaders
 
 I will not show any code from this project due to the involvement of sensitive financial information.  However, what I can do is show what I have worked on in this project.
 
-![alt text](/images/echopath/menu.png)
+![alt text](/images/data-converter/menu.png)
 
 As seen above in the image, once the program opens, there are eight options: append historical data (data added to the first sheet called Historical Data), append projected data (data added to the second sheet called Financial Data), append actual data (data added to the second sheet called Financial Data), abort changes, preview sheets, quit and open Excel file, and quit.  The way the program works is by selecting an option and then adding a specific file based on the type of data being added.
 
@@ -38,7 +38,7 @@ The historical data sheet has six categories:
 - Datenumber: Year and month (in the format of YYYYMM)
 - Date: Month and year
 
-![alt text](/images/echopath/first-sheet.png)
+![alt text](/images/data-converter/first-sheet.png)
 
 As seen above in the image while also only focusing on the first six columns, the structure of this sheet was requested as a part of the first sheet.
 
@@ -92,6 +92,6 @@ Some safety measures have been added to the program to prevent it from crashing.
 
 I am now done with the project, but if more time was allowed, the ultimate goal is to be able to build a dashboard in the Excel file with graphs and trends based on the data inserted in the Excel file.  The dashboard follows Pineapple Consulting's dashboard as seen below:
 
-![alt text](/images/echopath/dashboard.png)
+![alt text](/images/data-converter/dashboard.png)
 
 This project is subject to change.
