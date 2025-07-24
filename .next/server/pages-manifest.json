@@ -1,11 +1,13 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/about": "pages/about.html",
+  "/characters": "pages/characters.html",
+  "/contact": "pages/contact.html",
+  "/projects": "pages/projects.html",
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
   "/portfolio/[slug]": "pages/portfolio/[slug].js",
   "/portfolio": "pages/portfolio.js",
-  "/characters": "pages/characters.js",
-  "/404": "pages/404.js",
-  "/contact": "pages/contact.js",
-  "/": "pages/index.js"
+  "/_document": "pages/_document.js"
 }
