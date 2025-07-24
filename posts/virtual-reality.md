@@ -38,3 +38,7 @@ There were two parts of the project: turning the LiDAR data into a 3D model and 
 In April, with another person, we presented our work in a research conference called Celebrate Purdue's Thinkers, Creators, & Experimenters on April 10th, 2025. We had a poster and a Meta Quest 3 headset where people could experience a VR demo of the caverns in the Unity Engine.  Down below is a picture of me with the poster (ignore the lollipop in my mouth please).
 
 ![alt text](/images/virtual-reality/poster.png)
+
+Here is the poster showcased at the conference:
+
+![alt text](/images/virtual-reality/vrposter.png)

@@ -1,11 +1,11 @@
 ---
-title: 'Financial Data Converter Application'
+title: 'Data Converter Application'
 date: 'August 13, 2025'
 excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel'
 cover_image: '/images/data-converter/echopath.png'
 ---
 
-# Financial Data Converter Application
+# Data Converter Application
 
 In Fall 2024, I was able to get a remote internship from Echopath LLC.  This remote internship allows me to work on my programming skills while getting advice and feedback from my mentor, both on career advice and the project itself.
 

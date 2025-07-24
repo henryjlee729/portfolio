@@ -1,13 +1,8 @@
 {
-  "/_error": "pages/_error.js",
-  "/404": "pages/404.html",
-  "/about": "pages/about.html",
-  "/characters": "pages/characters.html",
-  "/contact": "pages/contact.html",
-  "/projects": "pages/projects.html",
-  "/": "pages/index.html",
   "/_app": "pages/_app.js",
-  "/portfolio/[slug]": "pages/portfolio/[slug].js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/projects": "pages/projects.js",
   "/portfolio": "pages/portfolio.js",
-  "/_document": "pages/_document.js"
+  "/portfolio/[slug]": "pages/portfolio/[slug].js"
 }
