@@ -13,6 +13,43 @@ const projects = () => {
       <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-28">
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Ticket Search Utility
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/ticket-search/ticket-search-2.png"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                The Ticket Search Utility is a specialized application designed
+                to query a SQL database populated with ConnectWise ticket data
+                obtained via the ConnectWise API. It performs full-text searches
+                on ticket notes to identify entries containing a specified query
+                string and supports advanced filtering parameters, such as
+                author attribution and resolution status. The utility leverages
+                indexed database fields to optimize query performance, ensuring
+                efficient retrieval even with large ticket datasets. This tool
+                is intended to streamline analysis and troubleshooting workflows
+                by enabling precise, configurable searches across historical
+                ticket records.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Python, HTML, CSS, JavaScript, Flask, SQL, Databases
+                </p>
+              </cite>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
             Kirby's Flapventure
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
@@ -138,61 +175,7 @@ const projects = () => {
 
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-            Beanie Pomodoro
-          </h1>
-          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-4 aspect-h-3">
-              <Image
-                src="/images/beanie-pomodoro/work.png"
-                layout="fill"
-                objectFit="contain"
-                alt=""
-              />
-            </div>
-            <blockquote className="sm:col-span-2">
-              <p className="text-xs md:text-base">
-                Beanie Pomodoro is a custom Pomodoro timer I created after
-                switching to Firefox. Built with HTML, CSS, and JavaScript, it
-                features adjustable work/rest intervals, a stats page, and
-                personalized artwork. The extension is available for both
-                Firefox and Chrome, with ongoing improvements.
-                <br></br>
-                <br></br>
-                <a
-                  className="text-blue-500"
-                  href="https://addons.mozilla.org/en-US/firefox/addon/beanie-pomodoro/"
-                >
-                  {" "}
-                  Visit Firefox Extension.
-                </a>
-              </p>
-              <cite className="inline-flex items-center mt-8 not-italic">
-                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
-                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  JavaScript, HTML, CSS, Bootstrap
-                </p>
-              </cite>
-              <div className="flex pt-8 space-x-4">
-                <div>
-                  <a
-                    href="https://github.com/henryjlee729/beanie-pomodoro"
-                    target="_blank"
-                    rel="noopner noreferrer"
-                  >
-                    <FiGithub size="30px" />
-                  </a>
-                </div>
-                {/* <div> */}
-                {/*     <HiOutlineExternalLink size='30px'/> */}
-                {/* </div> */}
-              </div>
-            </blockquote>
-          </div>
-        </section>
-
-        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
-          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-            Spring 2024 Data Mine Project
+            Wikidata Mismatches
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="aspect-w-5 aspect-h-3">

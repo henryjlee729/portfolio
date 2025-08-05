@@ -56,7 +56,7 @@ const About = () => {
                   I&#39;m a
                   <span className="text-blue-500"> Problem Solver</span> with a
                   passion for
-                  <span className="text-blue-500"> Technology</span>.
+                  <span className="text-blue-500"> Software</span>.
                 </h2>
               </motion.div>
             </div>
@@ -78,9 +78,9 @@ const About = () => {
               }}
             >
               <p className="text-left font-normal mb-5 flex-wrap">
-                I am pursuing a Bachelor of Science in Computer Science at
-                Purdue University with a minor in Mathematics. I am
-                interested in problem-solving with software.
+                I am pursuing a Bachelor of Science in Computer Science and a minor in 
+                mathematics at Purdue University, specializing in machine intelligence and 
+                computer graphics. I am interested in problem-solving with software.
               </p>
               <p className="text-left font-normal mb-5 flex-wrap"></p>
               <p className="text-left font-normal mb-5 flex-wrap">

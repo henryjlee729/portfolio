@@ -1,6 +1,6 @@
 ---
 title: 'Data Converter Application'
-date: 'August 13, 2025'
+date: 'August 4, 2025'
 excerpt: 'Keywords: Software Engineering, Python, Data Manipulation, PyCharm, pandas, Excel'
 cover_image: '/images/data-converter/echopath.png'
 ---
@@ -16,8 +16,6 @@ Echopath is an Indianapolis-based IT company that helps individuals and organiza
 ## The Project
 
 My first project involved building a financial dashboard for the company leadership that takes in CSV files (and Excel files for certain options) and appended them to an Excel file.  The CSV files had a specific structure that had to reformatted and added into an Excel file with several sheets.  The entire purpose of this project is important for every company: keep track of income and expense streams to ensure that the company systems are working as intended.
-
-I will not show any code from this project due to the involvement of sensitive financial information.  However, what I can do is show what I have worked on in this project.
 
 ![alt text](/images/data-converter/menu.png)
 
@@ -38,13 +36,21 @@ The historical data sheet has six categories:
 - Datenumber: Year and month (in the format of YYYYMM)
 - Date: Month and year
 
+As seen below, the structure of this sheet was requested as a part of the first sheet.
+
 ![alt text](/images/data-converter/first-sheet.png)
 
-As seen above in the image while also only focusing on the first six columns, the structure of this sheet was requested as a part of the first sheet.
+This is what the application would look like if historical data (income and expense data) was being added:
+
+![alt text](/images/data-converter/historical-data.png)
 
 ## The Second Sheet: Balance Data
 
 The balance data sheet follows the same structure as the historical data but with different values from different datasets.
+
+This is what the application would look like if balance data (assets and liabilities data) was being added:
+
+![alt text](/images/data-converter/balance-data.png)
 
 ## The Third Sheet: Financial Data
 
@@ -60,6 +66,14 @@ The financial data sheet has six categories:
 
 The first three columns were for the projected data while the next three columns were for the actual data.  Both of them were reformatted to match the three-column type.  The seventh column was requested to be added since it allows the leadership to see how much money they saved/lost based on their projected data and the actual amount for that specific income/expense type.  That way, it allowed them to make decisions based on this information.
 
+This is what the application would look like if projected data was being added:
+
+![alt text](/images/data-converter/projected-data.png)
+
+This is what the application would look like if actual data was being added:
+
+![alt text](/images/data-converter/actual-data.png)
+
 ## The Fourth Sheet: Audit Log
 
 The audit log is meant to act as a record of what type of file has been added to the Excel file.  It has three columns:
@@ -70,15 +84,21 @@ The audit log is meant to act as a record of what type of file has been added to
 
 ## Aborting Unwanted Changes
 
-The fourth option in the menu is a safety measure where if a user does not want to add their additions to the Excel file, they have the option to remove those changes and revert the Excel file from the previous session.  This all happens when the user opens up the prompt, where a backup Excel file is made and all of the new changes are added to the original Excel file.  If the user decides to abort changes, the program will close, the backup Excel file will become the original, and the original Excel file will be deleted.
+The fifth option in the menu is a safety measure where if a user does not want to add their additions to the Excel file, they have the option to remove those changes and revert the Excel file from the previous session.  This all happens when the user opens up the prompt, where a backup Excel file is made and all of the new changes are added to the original Excel file.  If the user decides to abort changes, the program will close, the backup Excel file will become the original, and the original Excel file will be deleted.
 
-## Technologies Utilized
+This is what the application would look like if changes were aborted:
 
-This project involved utilizing Python and PyCharm to read CSV files.  The project works by clicking on a Windows Batch script, which will reveal a window with several options.
+![alt text](/images/data-converter/abort-changes.png)
 
-I utilized the pandas library to read a CSV file and append the data to the Excel file.  I also utilized the tkinter library to showcase a file selector to make it easier to select a file and the openpyxl library to read and write into the Excel file. 
+## Previewing Sheets
 
-## Other Features
+The sixth option in the menu allows a user to preview the sheets.  This is to give a visual aspect of what the output looks like.  THe user can choose based on what sheet they would like to view.
+
+This is what the application would look like if sheets were previewed:
+
+![alt text](/images/data-converter/preview-sheets.png)
+
+## Safety Measures
 
 Some safety measures have been added to the program to prevent it from crashing.  Some of the following safety measures include:
 
@@ -88,10 +108,14 @@ Some safety measures have been added to the program to prevent it from crashing.
 - Preventing the program from crashing if a file has not been selected
 - Made a basic confirm feature where it asks the user if the file they are adding is the file they want added or not
 
+## Technologies Utilized
+
+This project involved utilizing Python and PyCharm to read CSV files.  The project works by clicking on a Windows Batch script, which will reveal a window with several options.
+
+I utilized the pandas library to read a CSV file and append the data to the Excel file.  I also utilized the tkinter library to showcase a file selector to make it easier to select a file and the openpyxl library to read and write into the Excel file. 
+
 ## Next Steps
 
-I am now done with the project, but if more time was allowed, the ultimate goal is to be able to build a dashboard in the Excel file with graphs and trends based on the data inserted in the Excel file.  The dashboard follows Pineapple Consulting's dashboard as seen below:
+I am done with the project, but if more time was allowed, the ultimate goal would be building a dashboard in the Excel file with graphs and trends based on the data inserted in the Excel file.  The dashboard follows Pineapple Consulting's dashboard as seen below:
 
 ![alt text](/images/data-converter/dashboard.png)
-
-This project is subject to change.

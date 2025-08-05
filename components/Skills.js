@@ -9,9 +9,11 @@ import { FaRust } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaRProject } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaLinux } from "react-icons/fa";
 import { SiNumpy } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -56,6 +58,9 @@ const Skills = () => {
               <FaBootstrap size="40px" />
               Bootstrap
             </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              Flask
+            </li>
           </ul>
 
           <ul className="flex justify-start items-center flex-row flex-wrap gap-8 mb-2 bg-blue-50 p-8 rounded-2xl">
@@ -92,8 +97,15 @@ const Skills = () => {
               <SiPandas size="40px" />
               Pandas
             </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiSqlite size="40px" />
+              SQLite
+            </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               Matplotlib
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              MATLAB
             </li>
           </ul>
 
@@ -117,6 +129,10 @@ const Skills = () => {
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaRust size="40px" />
               Rust
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <FaLinux size="40px" />
+              Linux
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               Analytics

@@ -1,10 +1,10 @@
 ---
-title: 'SURF Project'
-date: 'August 21, 2025'
-excerpt: 'Keywords: MATLAB, TBD'
+title: 'Undergraduate Research Assistant in Mechanical Engineering'
+date: 'August 8, 2025'
+excerpt: 'Keywords: MATLAB, Intelligent Tutoring Systems, Coupled Models, Clustering, SURF'
 cover_image: '/images/surf/surf.png'
 ---
 
-# My SURF Project
+# Exploring Interdependencies between Self-Confidence, Workload, and Learning Stage for Intelligent Tutoring Systems
 
-I will be doing summer research with haptics and Python.  More details coming soon...
+I did summer research.  More details coming soon...
