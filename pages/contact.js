@@ -69,7 +69,7 @@ const Contact = () => {
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
-                                /in/lofitea/
+                                /in/henryjlee729/
                             </a>{' '}
                             <br />
                             Email:{' '}

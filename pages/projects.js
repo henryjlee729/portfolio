@@ -1,5 +1,4 @@
 import { FiGithub } from "react-icons/fi";
-// import {HiOutlineExternalLink} from 'react-icons/hi'
 import Image from "next/image";
 import Head from "next/head";
 
@@ -26,17 +25,12 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                The Ticket Search Utility is a specialized application designed
-                to query a SQL database populated with ConnectWise ticket data
-                obtained via the ConnectWise API. It performs full-text searches
-                on ticket notes to identify entries containing a specified query
-                string and supports advanced filtering parameters, such as
-                author attribution and resolution status. The utility leverages
-                indexed database fields to optimize query performance, ensuring
-                efficient retrieval even with large ticket datasets. This tool
-                is intended to streamline analysis and troubleshooting workflows
-                by enabling precise, configurable searches across historical
-                ticket records.
+                The Ticket Search Utility enables fast, configurable searches across
+                ConnectWise ticket data by performing full-text queries on SQL
+                databases populated via the ConnectWise API. It supports filters
+                such as author and resolution status, and uses indexed fields to
+                maintain efficient performance on large datasets, streamlining
+                analysis and troubleshooting workflows.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
@@ -87,9 +81,6 @@ const projects = () => {
                     <FiGithub size="30px" />
                   </a>
                 </div>
-                {/* <div> */}
-                {/*     <HiOutlineExternalLink size='30px'/> */}
-                {/* </div> */}
               </div>
             </blockquote>
           </div>
@@ -133,9 +124,6 @@ const projects = () => {
                     <FiGithub size="30px" />
                   </a>
                 </div>
-                {/* <div> */}
-                {/*     <HiOutlineExternalLink size='30px'/> */}
-                {/* </div> */}
               </div>
             </blockquote>
           </div>
@@ -169,6 +157,17 @@ const projects = () => {
                   Python, PyCharm, Tkinter, Git, GitHub
                 </p>
               </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/leadership-dashboard"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
             </blockquote>
           </div>
         </section>
@@ -211,9 +210,6 @@ const projects = () => {
                     <FiGithub size="30px" />
                   </a>
                 </div>
-                {/* <div> */}
-                {/*     <HiOutlineExternalLink size='30px'/> */}
-                {/* </div> */}
               </div>
             </blockquote>
           </div>
@@ -258,9 +254,6 @@ const projects = () => {
                     <FiGithub size="30px" />
                   </a>
                 </div>
-                {/* <div> */}
-                {/*     <HiOutlineExternalLink size='30px'/> */}
-                {/* </div> */}
               </div>
             </blockquote>
           </div>

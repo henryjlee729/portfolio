@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolio/[slug]": "pages/portfolio/[slug].js",
-  "/portfolio": "pages/portfolio.js",
-  "/projects": "pages/projects.js"
+  "/": "pages/index.js",
+  "/404": "pages/404.js",
+  "/about": "pages/about.js",
+  "/portfolio/[slug]": "pages/portfolio/[slug].js"
 }
