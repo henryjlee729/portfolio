@@ -13,7 +13,8 @@ import { FaLinux } from "react-icons/fa";
 import { SiNumpy } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import { SiSqlite } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiJupyter } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -98,8 +99,12 @@ const Skills = () => {
               Pandas
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <SiSqlite size="40px" />
-              SQLite
+              <SiTensorflow size="40px" />
+              Tensorflow
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiJupyter size="40px" />
+              Jupyter
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               Matplotlib
