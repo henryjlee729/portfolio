@@ -9,7 +9,7 @@ cover_image: '/images/kirby-flapventure/kirby.gif'
 
 For some silly reason, I have an obsession with Kirby (probably becuase I main as Kirby in Smash Ultimate and oh man, his taunts are so adorable).  He's small, pink, and adorable and I just can't get over him.  I even have a couple of plushies.  Considering I like Kirby, I like to do art, and I want to code something, my mentor from my first internship recommended making a Flappy-bird clone.  I actually liked that idea since I can draw, code, and more importantly, get something made!
 
-As expected, this part takes two parts: art and programming.  I make my own sprites and I followed along a tutorial on <a href = "https://www.youtube.com/watch?v=ihvBiJ1oC9U">here</a> to see how I can make my very own game.
+As expected, this part takes two parts: art and programming.  I make my own sprites and I followed along a tutorial on <a href = "https://www.youtube.com/watch?v=ihvBiJ1oC9U">here</a> to see how I can make my very own game and the source code to the game is <a href = "https://github.com/henryjlee729/kirby-flapventure">here</a>..
 
 ## The Art
 
@@ -48,6 +48,6 @@ With all of those additions, I was very proud to see the final product.
 
 It's not perfect, as the background and ground animations could be smoother and in terms of gameplay, you could spam click or the space bar to go up in the screen and just constanly float over the obstacles.  However, considering how much time and effort I poured into this project, I am very happy with how it ended up.
 
-## Downloads 
+## Playing the Game
 
-The source code to the game is <a href = "https://github.com/henryjlee729/kirby-flapventure">here</a>.  Note that this may or may not work, but if you would like to play the game, a [Mac version](/downloads/kirby_flapventure_mac.zip) and a [Windows version](/downloads/kirby_flapventure_windows.zip) is available.
+To play the game, go to <a href = "https://henryjlee729.github.io/kirby-flapventure-web/">here</a>.

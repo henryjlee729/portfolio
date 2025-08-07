@@ -90,7 +90,7 @@ However, the independent model (SC + W + LS) performed better than the three cou
 
 ### B. Clustering Results
 
-After the $k$-means algorithm was implemented, the data revealed that the optimal number of clusters was 2 for self-confidence, 2 for workload, and 3 for the learning stage, as seen in Figure 4.
+After the k-means algorithm was implemented, the data revealed that the optimal number of clusters was 2 for self-confidence, 2 for workload, and 3 for the learning stage, as seen in Figure 4.
 
 Figure 4 revealed that overall, the optimal number of clusters to group participant data was 2 for self-confidence and workload, and 3 for learning stage.  The data for self-confidence and workload does make sense because there are often two groups (or clusters) that often occur in both of these groups.
 
@@ -138,3 +138,7 @@ The authors give thanks to Purdue’s Summer Undergraduate Research Fellowship p
 Here is the image of the research poster that was presented in the 2025 SURF Symposium.
 
 ![alt text](/images/surf/poster.png)
+
+## Paper
+
+The full technical paper can be read [here](/downloads/surf_paper.pdf).
