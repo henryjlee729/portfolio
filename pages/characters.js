@@ -28,8 +28,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Meet Henry, the person who made this website! He is a
-                  daydreamer who doesn't understand why Kirby is pink when
+                  Meet Henry, a daydreamer! He doesn't understand why Kirby is pink when
                   he is not busy.
                 </p>
               </blockquote>
@@ -43,7 +42,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
                 <Image
-                  src="/images/lofitea-friends/harmon.png"
+                  src="/images/lofitea-friends/kaelen.png"
                   layout="fill"
                   objectFit="contain"
                   alt=""
@@ -51,7 +50,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  This is Kaelen, a former soldier. His favorite
+                  This is Kaelen, a former DJ. His favorite
                   activities include travelling, singing, meditating, and not 
                   talking to people.
                 </p>
@@ -66,7 +65,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
                 <Image
-                  src="/images/lofitea-friends/aurora.png"
+                  src="/images/lofitea-friends/aira.png"
                   layout="fill"
                   objectFit="contain"
                   alt=""
@@ -74,8 +73,8 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Say hello to Aira, a spray-painting artist who believes in equalism.
-                  Ironically enough, she is a conscious AI...
+                  Say hello to Aira, a spray-painting artist who believes all living things
+                  (including people) should have empathy, even though she is a conscious AI...
                 </p>
               </blockquote>
             </div>
@@ -88,7 +87,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
                 <Image
-                  src="/images/lofitea-friends/orion.png"
+                  src="/images/lofitea-friends/serion.png"
                   layout="fill"
                   objectFit="contain"
                   alt=""
@@ -97,9 +96,8 @@ const characters = () => {
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
                   Serion, this is the world. The world, Serion. A weakened
-                  angel with the holy sword whose wings got burned in an
-                  unfortunate "accident", he is forever doomed to be the black
-                  sheep of the angel world. Interestingly, he hates tomatoes.
+                  angel whose wings got burned in an
+                  unfortunate "accident".  Interestingly, he hates tomatoes.
                 </p>
               </blockquote>
             </div>
@@ -112,7 +110,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
                 <Image
-                  src="/images/lofitea-friends/melody.png"
+                  src="/images/lofitea-friends/melsirius.png"
                   layout="fill"
                   objectFit="contain"
                   alt=""
@@ -121,9 +119,8 @@ const characters = () => {
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
                   Say hello to Melsirius, a servant to the Demon King of a
-                  faraway land. She ran away from her realm to become an idol,
-                  but unfortunately, both the angels and the demons refuse to
-                  leave her alone.
+                  faraway land. She was supposed to be a powerful demon, but 
+                  was stuck raising a child named Nirin.
                 </p>
               </blockquote>
             </div>
@@ -136,7 +133,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="aspect-w-5 aspect-h-3">
                 <Image
-                  src="/images/lofitea-friends/cyprus.png"
+                  src="/images/lofitea-friends/luca.png"
                   layout="fill"
                   objectFit="contain"
                   alt=""
@@ -145,9 +142,7 @@ const characters = () => {
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
                   Ah, yes. Luca, the first of the Wild Duo. He is constantly
-                  finding ways to pick a fight with other people while always
-                  losing. No matter what he says, he will never, ever get the
-                  roadrunner.
+                  finding ways to pick a fight with other people if he feels jealous.
                 </p>
               </blockquote>
             </div>
@@ -168,11 +163,9 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Zzz... Raella, the second of the Wild Duo, is a slacker who
+                  Raella, the second of the Wild Duo, is a slacker who
                   loves to sleep and do nothing. She is like an immovable
                   object. No matter what you do, nothing can ever wake her up.
-                  Not even a car horn. How odd. She isn't supposed to be
-                  sleeping for that long...
                 </p>
               </blockquote>
             </div>
