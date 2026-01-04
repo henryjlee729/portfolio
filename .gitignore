@@ -1,5 +1,3 @@
-node_modules
-.next
-.github
-.DS_Store
-.env
+.next/
+node_modules/
+.env*
