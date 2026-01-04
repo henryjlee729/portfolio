@@ -7,7 +7,7 @@ cover_image: '/images/empire-cooler/empire-cooler.jpg'
 
 # Empire Cooler Corporate Partners Project
 
-In Fall 2025, I worked on a Corporate Partners project with Empire Cooler through **Purdue University’s Data Mine learning community. As part of this collaboration, I worked in an Agile team environment where tasks were organized weekly and distributed among team members. This project focused on building the foundations of an AI-powered system designed to help refrigeration technicians quickly access accurate, model-specific repair information. The system aimed to modernize how technicians search through decades of manuals, service notes, and online resources.
+In Fall 2025, I worked on a Corporate Partners project with Empire Cooler through Purdue University’s Data Mine learning community. As part of this collaboration, I worked in an Agile team environment where tasks were organized weekly and distributed among team members. This project focused on building the foundations of an AI-powered system designed to help refrigeration technicians quickly access accurate, model-specific repair information. The system aimed to modernize how technicians search through decades of manuals, service notes, and online resources.
 
 ## Empire Cooler
 
