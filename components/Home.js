@@ -38,7 +38,7 @@ const Home = () => {
                     </p>
                     <div className="aspect-w-2 aspect-h-1">
                         <Image
-                        src="/images/lofitea-friends/poyo.gif"
+                        src="/images/beanie-friends/poyo.gif"
                         layout="fill"
                         objectFit="contain"
                         alt=""

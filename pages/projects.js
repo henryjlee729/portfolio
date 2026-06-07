@@ -12,6 +12,226 @@ const projects = () => {
       <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-28">
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Shape Synthesis
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/kirby-flapventure/kirby.gif"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Kirby's Flapventure is a 2D game developed in Unity, inspired by
+                the mechanics of Flappy Bird and featuring custom-designed
+                assets based on Kirby. This project combines hand-drawn sprite
+                animation, parallax background design, and physics-based
+                gameplay implemented in C#. Core components include custom
+                scripts for player control, obstacle spawning, and game state
+                management.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Unity, Game Physics, C#, Animation, Game Development
+                </p>
+              </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Web Server
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/kirby-flapventure/kirby.gif"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Kirby's Flapventure is a 2D game developed in Unity, inspired by
+                the mechanics of Flappy Bird and featuring custom-designed
+                assets based on Kirby. This project combines hand-drawn sprite
+                animation, parallax background design, and physics-based
+                gameplay implemented in C#. Core components include custom
+                scripts for player control, obstacle spawning, and game state
+                management.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Unity, Game Physics, C#, Animation, Game Development
+                </p>
+              </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Custom Shell
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/kirby-flapventure/kirby.gif"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Kirby's Flapventure is a 2D game developed in Unity, inspired by
+                the mechanics of Flappy Bird and featuring custom-designed
+                assets based on Kirby. This project combines hand-drawn sprite
+                animation, parallax background design, and physics-based
+                gameplay implemented in C#. Core components include custom
+                scripts for player control, obstacle spawning, and game state
+                management.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Unity, Game Physics, C#, Animation, Game Development
+                </p>
+              </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            Custom Memory Allocator
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/kirby-flapventure/kirby.gif"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Kirby's Flapventure is a 2D game developed in Unity, inspired by
+                the mechanics of Flappy Bird and featuring custom-designed
+                assets based on Kirby. This project combines hand-drawn sprite
+                animation, parallax background design, and physics-based
+                gameplay implemented in C#. Core components include custom
+                scripts for player control, obstacle spawning, and game state
+                management.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Unity, Game Physics, C#, Animation, Game Development
+                </p>
+              </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            SimpleC Compiler
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="aspect-w-5 aspect-h-3">
+              <Image
+                src="/images/kirby-flapventure/kirby.gif"
+                layout="fill"
+                objectFit="contain"
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Kirby's Flapventure is a 2D game developed in Unity, inspired by
+                the mechanics of Flappy Bird and featuring custom-designed
+                assets based on Kirby. This project combines hand-drawn sprite
+                animation, parallax background design, and physics-based
+                gameplay implemented in C#. Core components include custom
+                scripts for player control, obstacle spawning, and game state
+                management.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  Unity, Game Physics, C#, Animation, Game Development
+                </p>
+              </cite>
+              <div className="flex pt-8 space-x-4">
+                <div>
+                  <a
+                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                  >
+                    <FiGithub size="30px" />
+                  </a>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
             Ticket Search Utility
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
@@ -25,12 +245,12 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                The Ticket Search Utility enables fast, configurable searches across
-                ConnectWise ticket data by performing full-text queries on SQL
-                databases populated via the ConnectWise API. It supports filters
-                such as author and resolution status, and uses indexed fields to
-                maintain efficient performance on large datasets, streamlining
-                analysis and troubleshooting workflows.
+                The Ticket Search Utility enables fast, configurable searches
+                across ConnectWise ticket data by performing full-text queries
+                on SQL databases populated via the ConnectWise API. It supports
+                filters such as author and resolution status, and uses indexed
+                fields to maintain efficient performance on large datasets,
+                streamlining analysis and troubleshooting workflows.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
