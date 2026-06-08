@@ -7,8 +7,9 @@ export default function Post({ post }) {
             <img className='pb-4' src={post.frontmatter.cover_image} alt='' />
             <div className='pb-4'>Posted on {post.frontmatter.date}</div>
             <p className='pb-4'>{post.frontmatter.excerpt}</p>
-            <Link href={`/portfolio/${post.slug}`}>
-                <a className='inline-flex px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'>Read More</a>
+            <Link href={`/portfolio/${post.slug}`}
+            className='inline-flex px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'>
+                Read More
             </Link>
         </div>
     )

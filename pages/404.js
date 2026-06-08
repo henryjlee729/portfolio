@@ -20,14 +20,11 @@ const Error404 = () => {
                     <p className='mt-4 mb-8 dark:text-gray-400'>
                         Don&#39;t worry! You can find a lot more things on this website!
                     </p>
-                    <Link href='/'>
-                        <a
-                            rel='noopener noreferrer'
-                            className='inline-flex w-full px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
-                        >
-                            Back to Home
-                        </a>
-
+                    <Link
+                    href='/'
+                    className='inline-flex w-full px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
+                    >
+                        Back to Home
                     </Link>
                 </div>
             </div>

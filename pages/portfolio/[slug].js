@@ -19,8 +19,11 @@ export default function PostPage({
                     <link rel='icon' href='./images/beanie.jpg' />
                     <title>{title}</title>
                 </Head>
-                <Link href='/portfolio'>
-                    <a className='inline-flex px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'>Go Back</a>
+                <Link
+                href='/portfolio'
+                className='inline-flex px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow sm:w-auto active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
+                >
+                    Go Back
                 </Link>
                 <div>
                     <h1 className='text-2xl font-bold pt-4'>{title}</h1>

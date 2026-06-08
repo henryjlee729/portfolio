@@ -16,11 +16,12 @@ const characters = () => {
               Henry
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/henry.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  unoptimized
                   alt=""
                 />
               </div>
@@ -38,11 +39,12 @@ const characters = () => {
               Aurora (NOT FINISHED)
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/aira.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  unoptimized
                   alt=""
                 />
               </div>
@@ -61,11 +63,12 @@ const characters = () => {
               Luca (IN PROGRESS)
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/serion.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  unoptimized
                   alt=""
                 />
               </div>
@@ -84,11 +87,12 @@ const characters = () => {
               Raella (UNDER PROGRESS)
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/melsirius.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  unoptimized
                   alt=""
                 />
               </div>
@@ -107,11 +111,12 @@ const characters = () => {
               Aikos (NOT FINISHED)
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/luca.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  unoptimized
                   alt=""
                 />
               </div>
@@ -130,12 +135,13 @@ const characters = () => {
               Rhee (NOT FINISHED)
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-5 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/raella.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
                   alt=""
+                  unoptimized
                 />
               </div>
               <blockquote className="sm:col-span-2">
@@ -153,12 +159,13 @@ const characters = () => {
               Worlds Apart Parables
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-              <div className="aspect-w-4 aspect-h-3">
+              <div className="relative aspect-[5/3]">
                 <Image
                   src="/images/beanie-friends/worlds-apart.png"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: "contain" }}
                   alt=""
+                  unoptimized
                 />
               </div>
               <blockquote className="sm:col-span-2">

@@ -1,7 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-code{
+@import "tailwindcss";
+@config "../tailwind.config.js";
+@plugin "@tailwindcss/typography";
+
+code {
     background-color: #cbd3f5;
     padding-top : 5px;
     padding-bottom : 5px;

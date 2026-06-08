@@ -14,12 +14,11 @@ const ContactSubmitPopup = (props) => {
                 </p>
 
                 <div className="mt-6 sm:flex">
-                    <Link href='/'>
-                        <a
-                            className='px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
-                        >
-                            OK
-                        </a>
+                    <Link
+                    href='/'
+                    className='px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
+                    >
+                        OK
                     </Link>
                 </div>
             </div>

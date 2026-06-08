@@ -15,12 +15,13 @@ const projects = () => {
             Shape Synthesis
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
                 alt=""
+                unoptimized
               />
             </div>
             <blockquote className="sm:col-span-2">
@@ -59,12 +60,13 @@ const projects = () => {
             Web Server
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
                 alt=""
+                unoptimized
               />
             </div>
             <blockquote className="sm:col-span-2">
@@ -103,11 +105,12 @@ const projects = () => {
             Custom Shell
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -147,11 +150,12 @@ const projects = () => {
             Custom Memory Allocator
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -191,11 +195,12 @@ const projects = () => {
             SimpleC Compiler
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -235,11 +240,12 @@ const projects = () => {
             Ticket Search Utility
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/ticket-search/ticket-search-2.png"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -267,11 +273,12 @@ const projects = () => {
             Kirby's Flapventure
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/kirby-flapventure/kirby.gif"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -310,11 +317,12 @@ const projects = () => {
             Digit Classifier
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/digit-classifier/mnist.png"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -353,11 +361,12 @@ const projects = () => {
             Financial Data Converter
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/data-converter/menu2.png"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -397,11 +406,12 @@ const projects = () => {
             Wikidata Mismatches
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/wikimedia/wikimedia.png"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
@@ -440,11 +450,12 @@ const projects = () => {
             Tickets@Purdue
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="aspect-w-5 aspect-h-3">
+            <div className="relative aspect-[5/3]">
               <Image
                 src="/images/tickets-at-purdue/tickets-at-purdue.png"
-                layout="fill"
-                objectFit="contain"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
                 alt=""
               />
             </div>
