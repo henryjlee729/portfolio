@@ -98,7 +98,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Say hello to Melsirius, a tsundere. She claims she hates people
+                  Say hello to Raella, a tsundere. She claims she hates people
                   but on the inside, she's a giant softie. Be careful, though.
                   Mention anything about technology and she will go ballistic.
                 </p>
