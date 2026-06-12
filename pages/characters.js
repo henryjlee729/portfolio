@@ -41,7 +41,7 @@ const characters = () => {
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="relative aspect-[5/3]">
                 <Image
-                  src="/images/beanie-friends/aira.jpg"
+                  src="/images/beanie-friends/aurora.jpg"
                   fill
                   style={{ objectFit: "contain" }}
                   unoptimized
