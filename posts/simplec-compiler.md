@@ -1,24 +1,54 @@
 ---
 title: 'SimpleC Compiler'
-date: 'May 14, 2025'
-excerpt: 'Keywords: TypeScript, Notes, Data Structures and Algorithms'
-cover_image: '/images/bejanaro-notes/homepage.png'
+date: 'January 2, 2025'
+excerpt: 'Keywords: C, Compiler Design, Lex & Yacc, x86-64 Assembly, Computer Architecture'
+cover_image: '/images/simplec-compiler/title.png'
 ---
 
-# Bejanaro Notes
+# SimpleC Compiler
 
-In the spring semester of my sophomore year, I have taken CS 25100: Data Structure and Algorithms.  This is a very important class that I needed to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
+During the spring semester of my sophomore year, I took CS 25000: Computer Architecture. One of the largest projects in the course was building a compiler for a subset of the C programming language called SimpleC. The project introduced many of the concepts involved in compiler construction, including parsing, code generation, and assembly language programming.
 
-However, when I took the class in the fall semester, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website is <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
+Unlike traditional programming assignments that focus on building applications, this project required translating high-level source code into low-level x86-64 assembly instructions that could be assembled and executed by a computer.
 
-## The Issue
+## The Challenge
 
-When retaking the class, I noticed that someone posts pictures of the lecture notes on a forum.  It is usually a pinned discussion post where anyone can see them.  The issue with me is that there are over 30+ lectures in the semester and I don't want to see 30+ different pinned comments where it can be hard to find all of the lecture notes.
+Compilers are responsible for converting human-readable source code into machine-executable instructions. For this project, a parser and scanner framework using Lex and Yacc was provided, but much of the compiler's code generation functionality needed to be implemented manually.
 
-## What I Added
+The compiler was required to support:
 
-I did not change too much regarding the website.  The overall structure is the same.  The only minor changes I made was replacing last semester's lecture notes with this semester's lectures notes as well as adding a small download button that allows a student to get all of the images as a PDF.  I felt that this would have been a convenient feature since it would allow a student to have one file with all of the notes for a specific day.  Down below is a visual of what the changes look like:
+- Arithmetic expressions
+- Variables and assignments
+- Functions and function calls
+- Conditional statements
+- Loops
+- Arrays
+- x86-64 assembly generation
 
-![alt text](/images/bejanaro-notes/notes.png)
+One of the more interesting challenges was implementing expression evaluation using a register-based virtual stack. Instead of relying entirely on memory, expressions were evaluated using CPU registers to improve efficiency and performance.
 
-With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://henryjlee729.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/henryjlee729/BejanaroNotes"> here</a>.
+## Implementation
+
+The compiler was written in C using Lex and Yacc. Lex was used to tokenize SimpleC source code, while Yacc parsed those tokens according to the language grammar.
+
+As different language constructs were recognized by the parser, the compiler generated x86-64 assembly instructions directly. The generated assembly code could then be assembled and linked into executable programs.
+
+Throughout the project, support was gradually added for additional language features such as control flow statements, arrays, and function calls.
+
+## Results
+
+By the end of the project, the compiler was capable of translating complete SimpleC programs into executable x86-64 assembly code. Programs containing arithmetic expressions, loops, conditionals, functions, and arrays could be successfully compiled and executed.
+
+The project grading results are shown below:
+
+![alt text](/images/simplec-compiler/results.png)
+
+Note: The short-circuit test was extra credit.
+
+## Conclusion
+
+The SimpleC Compiler project provided valuable experience with compiler construction and low-level programming concepts. It offered insight into how high-level programming languages are translated into assembly instructions and executed by modern processors while reinforcing many of the concepts introduced throughout CS 25000.
+
+## Reference
+
+This project was developed by the CS 25000 professor. To see the entire project, look at the reference [here](/downloads/simplec_compiler.pdf).

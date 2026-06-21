@@ -1,24 +1,52 @@
 ---
 title: 'Custom Memory Allocator'
-date: 'May 14, 2025'
-excerpt: 'Keywords: TypeScript, Notes, Data Structures and Algorithms'
-cover_image: '/images/bejanaro-notes/homepage.png'
+date: 'May 14, 2026'
+excerpt: 'Keywords: C, Systems Programming, Memory Management, Malloc, Data Structures'
+cover_image: '/images/memory-allocator/title.png'
 ---
 
-# Bejanaro Notes
+# Custom Memory Allocator
 
-In the spring semester of my sophomore year, I have taken CS 25100: Data Structure and Algorithms.  This is a very important class that I needed to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
+During the spring semester of my junior year, I took CS 25200: Systems Programming. One of the first major projects in the course was implementing a custom version of the C memory allocator, commonly known as `malloc`.
 
-However, when I took the class in the fall semester, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website is <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
+The goal of the project was to understand how dynamic memory allocation works under the hood by building an allocator capable of managing memory requests, tracking free blocks, and efficiently reusing previously allocated memory.
 
-## The Issue
+## The Challenge
 
-When retaking the class, I noticed that someone posts pictures of the lecture notes on a forum.  It is usually a pinned discussion post where anyone can see them.  The issue with me is that there are over 30+ lectures in the semester and I don't want to see 30+ different pinned comments where it can be hard to find all of the lecture notes.
+Modern memory allocators must balance performance and memory efficiency while supporting arbitrary allocation and deallocation requests. Rather than requesting memory from the operating system for every allocation, allocators obtain large chunks of memory and manage them internally.
 
-## What I Added
+The allocator needed to support:
 
-I did not change too much regarding the website.  The overall structure is the same.  The only minor changes I made was replacing last semester's lecture notes with this semester's lectures notes as well as adding a small download button that allows a student to get all of the images as a PDF.  I felt that this would have been a convenient feature since it would allow a student to have one file with all of the notes for a specific day.  Down below is a visual of what the changes look like:
+- Dynamic memory allocation and deallocation
+- Free list management
+- Block splitting
+- Block coalescing
+- Memory fragmentation reduction
+- Efficient memory reuse
 
-![alt text](/images/bejanaro-notes/notes.png)
+One of the most interesting challenges was implementing boundary tags and free lists that allowed neighboring memory blocks to be merged together in constant time when memory was freed.
 
-With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://henryjlee729.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/henryjlee729/BejanaroNotes"> here</a>.
+## Implementation
+
+The allocator was written in C and used the `sbrk()` system call to request memory from the operating system. Large chunks of memory were divided into smaller blocks that could be allocated to users as needed.
+
+To improve performance, the allocator maintained multiple segregated free lists organized by block size. When memory was freed, adjacent free blocks were automatically coalesced to reduce fragmentation and create larger reusable blocks.
+
+Additional optimizations included:
+
+- Boundary tags for constant-time coalescing
+- Multiple free lists for faster allocation
+- Fenceposts to safely manage chunk boundaries
+- Lazy allocation of additional memory from the operating system
+
+## Results
+
+By the end of the project, the allocator successfully supported allocation, deallocation, block splitting, coalescing, and management of multiple memory chunks retrieved from the operating system. The implementation behaved similarly to a simplified version of real-world allocators such as dlmalloc and ptmalloc while providing a deeper understanding of operating systems and memory management concepts. :contentReference[oaicite:0]{index=0}
+
+Below is a screenshot of the grading results:
+
+![alt text](/images/memory-allocator/results.png)
+
+## Conclusion
+
+This project provided valuable experience with low-level systems programming and memory management. Implementing a custom allocator offered insight into how operating systems and runtime libraries manage heap memory while reinforcing concepts such as linked lists, pointer arithmetic, fragmentation, and performance optimization.

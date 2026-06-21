@@ -53,7 +53,7 @@ const Home = () => {
                 Contact Me
               </Link>
               <a
-                href="/resume.pdf"
+                href="/downloads/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring"

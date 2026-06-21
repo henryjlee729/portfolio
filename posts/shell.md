@@ -1,24 +1,57 @@
 ---
 title: 'Custom Shell'
-date: 'May 14, 2025'
-excerpt: 'Keywords: TypeScript, Notes, Data Structures and Algorithms'
-cover_image: '/images/bejanaro-notes/homepage.png'
+date: 'May 15, 2026'
+excerpt: 'Keywords: C++, Operating Systems, Shell, Lex, Yacc, Process Management'
+cover_image: '/images/shell/title.png'
 ---
 
-# Bejanaro Notes
+# Unix Shell
 
-In the spring semester of my sophomore year, I have taken CS 25100: Data Structure and Algorithms.  This is a very important class that I needed to pass in order for me to be able to take upper-level computer science courses.  I have tried taking it in the fall semester but circumstances have made me unable to continue the class in that semester.
+As part of CS 25200: Systems Programming, I developed a fully functional Unix shell in C and C++ that replicated many of the core features found in shells such as Bash and C Shell. The project required implementing process creation, command parsing, job control, input/output redirection, pipelines, signal handling, wildcard expansion, command history, and line editing. :contentReference[oaicite:0]{index=0}
 
-However, when I took the class in the fall semester, someone from my class has made a website that contains all of the lecture notes.  The website was built with TypeScript, HTML, CSS, and JavaScript.  The link to the website is <a href = "https://bejaranonotes.github.io/cs251/"> here</a> and the link to the repository is <a href = "https://github.com/BejaranoNotes/cs251"> here</a>.
+## The Challenge
 
-## The Issue
+Modern shells provide far more functionality than simply launching programs. They must parse complex user input, manage multiple processes, handle signals, perform command expansion, and provide an interactive user experience.
 
-When retaking the class, I noticed that someone posts pictures of the lecture notes on a forum.  It is usually a pinned discussion post where anyone can see them.  The issue with me is that there are over 30+ lectures in the semester and I don't want to see 30+ different pinned comments where it can be hard to find all of the lecture notes.
+The shell needed to support:
 
-## What I Added
+- Command execution using `fork()` and `execvp()`
+- Input, output, and error redirection
+- Multi-stage pipelines
+- Background process execution
+- Signal handling and zombie process cleanup
+- Built-in shell commands
+- Environment variable and tilde expansion
+- Wildcard expansion
+- Subshell execution
+- Interactive command history and line editing
 
-I did not change too much regarding the website.  The overall structure is the same.  The only minor changes I made was replacing last semester's lecture notes with this semester's lectures notes as well as adding a small download button that allows a student to get all of the images as a PDF.  I felt that this would have been a convenient feature since it would allow a student to have one file with all of the notes for a specific day.  Down below is a visual of what the changes look like:
+One of the most challenging aspects was recreating behavior users take for granted in modern shells while ensuring proper process and file descriptor management. My final shell version ended up looking like this below:
 
-![alt text](/images/bejanaro-notes/notes.png)
+![alt text](/images/shell/shell.png)
 
-With the semester done (and thankfully passing my Data Structures and Algorithms class), the webstie is now done.  The link to the customized lecture notes website is <a href = "https://henryjlee729.github.io/BejanaroNotes/"> here</a> and the link to the repository is <a href = "https://github.com/henryjlee729/BejanaroNotes"> here</a>.
+## Implementation
+
+The shell was built in C++ using Flex and Bison (Lex and Yacc) to tokenize and parse user commands. Parsed commands were stored in command structures and executed through Unix system calls such as `fork()`, `execvp()`, `pipe()`, `dup2()`, and `waitpid()`. Several advanced operating-system concepts were implemented:
+
+- Process creation and synchronization
+- Pipeline construction using Unix pipes
+- I/O redirection and file descriptor manipulation
+- Signal handling with `SIGINT` and `SIGCHLD`
+- Background job management and zombie process elimination
+- Built-in commands including `cd`, `setenv`, `unsetenv`, and `printenv`
+- Environment variable expansion and wildcard matching
+- Subshell execution using inter-process communication
+- Interactive line editing and command history support
+
+The shell also included support for expansions commonly found in Bash, such as `${VAR}`, `~`, wildcard patterns (`*` and `?`), and command substitution using subshells.
+
+## Results
+
+The completed shell successfully executed complex command pipelines, handled redirection and background jobs, supported shell built-ins, and provided an interactive user experience with history navigation and editing capabilities. The project reinforced core operating-system concepts including process management, signals, file descriptors, inter-process communication, and parsing techniques. The grading was split into two parts: automatics tests and manual tests.
+
+![alt text](/images/shell/results.png)
+
+## Conclusion
+
+This project provided extensive hands-on experience with Unix internals and systems programming. Building a shell from scratch deepened my understanding of process control, operating-system abstractions, parser generation tools, and low-level system calls while demonstrating how modern command-line environments are implemented.

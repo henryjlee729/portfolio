@@ -17,7 +17,7 @@ const projects = () => {
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="relative aspect-[5/3]">
               <Image
-                src="/images/kirby-flapventure/kirby.gif"
+                src="/images/shape-synthesis/menu.png"
                 fill
                 style={{ objectFit: "contain" }}
                 alt=""
@@ -26,24 +26,25 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                Kirby's Flapventure is a 2D game developed in Unity, inspired by
-                the mechanics of Flappy Bird and featuring custom-designed
-                assets based on Kirby. This project combines hand-drawn sprite
-                animation, parallax background design, and physics-based
-                gameplay implemented in C#. Core components include custom
-                scripts for player control, obstacle spawning, and game state
-                management.
+                Shape Synthesis is a machine learning and computer graphics
+                project that generates new 3D chair models using a Variational
+                Autoencoder (VAE). The generated point clouds are processed and
+                reconstructed into 3D meshes, which can then be explored in an
+                interactive OpenGL viewer. The project combines AI-driven shape
+                generation with traditional graphics techniques to create and
+                visualize unique 3D objects in real time.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
                 <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  Unity, Game Physics, C#, Animation, Game Development
+                  Python, OpenGL, Variational Autoencoders, Computer Graphics, 3D
+                  Modeling
                 </p>
               </cite>
               <div className="flex pt-8 space-x-4">
                 <div>
                   <a
-                    href="https://github.com/henryjlee729/kirby-flapventure"
+                    href="https://github.com/henryjlee729/shape-synthesis"
                     target="_blank"
                     rel="noopner noreferrer"
                   >
@@ -57,12 +58,12 @@ const projects = () => {
 
         <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
           <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-            Web Server
+            HTTP Web Server
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="relative aspect-[5/3]">
               <Image
-                src="/images/kirby-flapventure/kirby.gif"
+                src="/images/web-server/server.png"
                 fill
                 style={{ objectFit: "contain" }}
                 alt=""
@@ -71,31 +72,23 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                Kirby's Flapventure is a 2D game developed in Unity, inspired by
-                the mechanics of Flappy Bird and featuring custom-designed
-                assets based on Kirby. This project combines hand-drawn sprite
-                animation, parallax background design, and physics-based
-                gameplay implemented in C#. Core components include custom
-                scripts for player control, obstacle spawning, and game state
+                Developed a multithreaded HTTP/1.1 web server in C and C++ for
+                CS 25200: Systems Programming. The server supports static file
+                serving, Basic HTTP Authentication, multiple concurrency models,
+                dynamic directory browsing, CGI execution, request logging, and
+                server statistics. The project provided hands-on experience with
+                sockets, networking protocols, process management, threading,
+                synchronization, and server-side systems programming. scripts
+                for player control, obstacle spawning, and game state
                 management.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
                 <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  Unity, Game Physics, C#, Animation, Game Development
+                  C/C++, Networking, HTTP, Multithreading, CGI, Systems
+                  Programming
                 </p>
               </cite>
-              <div className="flex pt-8 space-x-4">
-                <div>
-                  <a
-                    href="https://github.com/henryjlee729/kirby-flapventure"
-                    target="_blank"
-                    rel="noopner noreferrer"
-                  >
-                    <FiGithub size="30px" />
-                  </a>
-                </div>
-              </div>
             </blockquote>
           </div>
         </section>
@@ -107,7 +100,7 @@ const projects = () => {
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="relative aspect-[5/3]">
               <Image
-                src="/images/kirby-flapventure/kirby.gif"
+                src="/images/shell/shell.png"
                 fill
                 style={{ objectFit: "contain" }}
                 unoptimized
@@ -116,31 +109,20 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                Kirby's Flapventure is a 2D game developed in Unity, inspired by
-                the mechanics of Flappy Bird and featuring custom-designed
-                assets based on Kirby. This project combines hand-drawn sprite
-                animation, parallax background design, and physics-based
-                gameplay implemented in C#. Core components include custom
-                scripts for player control, obstacle spawning, and game state
-                management.
+                Developed a Unix shell in C++ for CS 25200: Systems Programming
+                that supports command execution, pipelines, redirection,
+                background jobs, signal handling, built-in commands, wildcard
+                expansion, subshells, and command history. The project leveraged
+                Flex and Bison for parsing and provided hands-on experience with
+                process management, inter-process communication, file
+                descriptors, and operating-system internals.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
                 <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  Unity, Game Physics, C#, Animation, Game Development
+                  C/C++, Operating Systems, Shell, Lex, Yacc, Process Management
                 </p>
               </cite>
-              <div className="flex pt-8 space-x-4">
-                <div>
-                  <a
-                    href="https://github.com/henryjlee729/kirby-flapventure"
-                    target="_blank"
-                    rel="noopner noreferrer"
-                  >
-                    <FiGithub size="30px" />
-                  </a>
-                </div>
-              </div>
             </blockquote>
           </div>
         </section>
@@ -152,7 +134,7 @@ const projects = () => {
           <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
             <div className="relative aspect-[5/3]">
               <Image
-                src="/images/kirby-flapventure/kirby.gif"
+                src="/images/memory-allocator/title.png"
                 fill
                 style={{ objectFit: "contain" }}
                 unoptimized
@@ -161,76 +143,22 @@ const projects = () => {
             </div>
             <blockquote className="sm:col-span-2">
               <p className="text-xs md:text-base">
-                Kirby's Flapventure is a 2D game developed in Unity, inspired by
-                the mechanics of Flappy Bird and featuring custom-designed
-                assets based on Kirby. This project combines hand-drawn sprite
-                animation, parallax background design, and physics-based
-                gameplay implemented in C#. Core components include custom
-                scripts for player control, obstacle spawning, and game state
-                management.
+                Completed as part of CS 25200: Systems Programming, this project
+                involved implementing a custom memory allocator similar to
+                malloc in C. The allocator manages heap memory using free lists,
+                boundary tags, block splitting, and coalescing techniques to
+                efficiently allocate and reclaim memory while minimizing
+                fragmentation. It provided hands-on experience with low-level
+                memory management, pointer arithmetic, and systems programming
+                concepts.
               </p>
               <cite className="inline-flex items-center mt-8 not-italic">
                 <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
                 <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  Unity, Game Physics, C#, Animation, Game Development
+                  C/C++, Systems Programming, Memory Management, Malloc, Data
+                  Structures
                 </p>
               </cite>
-              <div className="flex pt-8 space-x-4">
-                <div>
-                  <a
-                    href="https://github.com/henryjlee729/kirby-flapventure"
-                    target="_blank"
-                    rel="noopner noreferrer"
-                  >
-                    <FiGithub size="30px" />
-                  </a>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        </section>
-
-        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
-          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-            SimpleC Compiler
-          </h1>
-          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
-            <div className="relative aspect-[5/3]">
-              <Image
-                src="/images/kirby-flapventure/kirby.gif"
-                fill
-                style={{ objectFit: "contain" }}
-                unoptimized
-                alt=""
-              />
-            </div>
-            <blockquote className="sm:col-span-2">
-              <p className="text-xs md:text-base">
-                Kirby's Flapventure is a 2D game developed in Unity, inspired by
-                the mechanics of Flappy Bird and featuring custom-designed
-                assets based on Kirby. This project combines hand-drawn sprite
-                animation, parallax background design, and physics-based
-                gameplay implemented in C#. Core components include custom
-                scripts for player control, obstacle spawning, and game state
-                management.
-              </p>
-              <cite className="inline-flex items-center mt-8 not-italic">
-                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
-                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
-                  Unity, Game Physics, C#, Animation, Game Development
-                </p>
-              </cite>
-              <div className="flex pt-8 space-x-4">
-                <div>
-                  <a
-                    href="https://github.com/henryjlee729/kirby-flapventure"
-                    target="_blank"
-                    rel="noopner noreferrer"
-                  >
-                    <FiGithub size="30px" />
-                  </a>
-                </div>
-              </div>
             </blockquote>
           </div>
         </section>
@@ -397,6 +325,43 @@ const projects = () => {
                   </a>
                 </div>
               </div>
+            </blockquote>
+          </div>
+        </section>
+
+        <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
+          <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
+            SimpleC Compiler
+          </h1>
+          <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
+            <div className="relative aspect-[5/3]">
+              <Image
+                src="/images/simplec-compiler/title.png"
+                fill
+                style={{ objectFit: "contain" }}
+                unoptimized
+                alt=""
+              />
+            </div>
+            <blockquote className="sm:col-span-2">
+              <p className="text-xs md:text-base">
+                Completed as part of CS 25000 Computer Architecture at Purdue
+                University, this project involved building a compiler for
+                SimpleC, a subset of the C programming language. Using Lex and
+                Yacc, the compiler translates SimpleC source code into x86-64
+                assembly, supporting arithmetic expressions, variables,
+                functions, arrays, and control flow constructs such as loops and
+                conditionals. The project provided hands-on experience with
+                compiler construction, parsing, code generation, and low-level
+                computer architecture concepts.
+              </p>
+              <cite className="inline-flex items-center mt-8 not-italic">
+                <span className="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+                <p className="text-xs md:text-base text-gray-500 sm:ml-3">
+                  C, Compiler Design, Lex & Yacc, x86-64 Assembly, Computer
+                  Architecture
+                </p>
+              </cite>
             </blockquote>
           </div>
         </section>
