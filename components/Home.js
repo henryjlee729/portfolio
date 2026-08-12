@@ -36,15 +36,6 @@ const Home = () => {
             <p className="text-sm mt-4 sm:leading-relaxed md:text-xl text-black">
               Programmer, Storyteller, Part-Time Artist
             </p>
-            <div className="relative aspect-[2/1]">
-              <Image
-                src="/images/beanie-friends/poyo.gif"
-                fill
-                style={{ objectFit: "contain" }}
-                unoptimized
-                alt=""
-              />
-            </div>
             <div className="flex flex-wrap justify-center gap-4 mt-8 grid-cols-2">
               <Link
                 href="/contact"

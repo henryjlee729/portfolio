@@ -13,12 +13,12 @@ const characters = () => {
         <div className="max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-10">
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Henry
+              Jay
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="relative aspect-[5/3]">
                 <Image
-                  src="/images/beanie-friends/henry.jpg"
+                  src="/images/beanie-friends/jay.jpg"
                   fill
                   style={{ objectFit: "contain" }}
                   unoptimized
@@ -27,7 +27,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Meet Henry, a daydreamer! He doesn't understand why Kirby is
+                  Meet Jay, a daydreamer! He doesn't understand why Kirby is
                   pink when he is not busy.
                 </p>
               </blockquote>
@@ -108,12 +108,12 @@ const characters = () => {
 
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Aikos
+              Kai
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="relative aspect-[5/3]">
                 <Image
-                  src="/images/beanie-friends/aikos.jpg"
+                  src="/images/beanie-friends/kai.jpg"
                   fill
                   style={{ objectFit: "contain" }}
                   unoptimized
@@ -122,7 +122,7 @@ const characters = () => {
               </div>
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
-                  Ah, yes. Aikos, the wanna-be hero. He is constantly
+                  Ah, yes. Kai, the wanna-be hero. He is constantly
                   finding ways to pick a fight with other people if he feels
                   jealous.
                 </p>
@@ -156,7 +156,7 @@ const characters = () => {
 
           <section className="p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl">
             <h1 className="font-bold text-lg md:text-xl text-blue-500 pb-4">
-              Worlds Apart Parables
+              Worlds Apart Tales
             </h1>
             <div className="grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center">
               <div className="relative aspect-[5/3]">
@@ -171,7 +171,7 @@ const characters = () => {
               <blockquote className="sm:col-span-2">
                 <p className="text-xs md:text-base">
                   This is my large-scale fantasy project! Consisting of five
-                  worlds and a long history, Worlds Apart is a tale of two
+                  worlds and a long history, Worlds Apart is a tale of four
                   characters trying to prevent the destruction of the Realms
                   before it is too late. This story is still under development.
                 </p>
